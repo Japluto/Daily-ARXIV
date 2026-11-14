@@ -47,6 +47,8 @@
     
       <link rel="stylesheet" href="../../stylesheets/extra.css">
     
+      <link rel="stylesheet" href="../../stylesheets/reading-tracker.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -316,6 +318,25 @@
         </a>
       </li>
     
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../reading-list/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  阅读清单
+
+      </a>
+    </li>
   
 
       
@@ -9528,6 +9549,33 @@
   
   
     <li class="md-nav__item">
+      <a href="../../reading-list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    阅读清单
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../about/" class="md-nav__link">
         
   
@@ -9622,61 +9670,61 @@
 
 <h2 id="_1">精选论文<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <div class="paper-list">
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.40401">
 <div class="card-kicker"><span>精选 01 · Continuous-Action World Models</span><span>2026-10-29 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.40401/">Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors</a></h3>
 <p>新意不只是“连续动作”，而是把跨频率轨迹预训练、世界模型条件化与查询式执行统一到同一潜在函数接口；实验同时报告任务成功、平滑性、频率迁移和能耗，评价维度较完整。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a><a class="pill" href="../../topics/world-models/">世界模型与 WAM</a></div><a class="read-link" href="../../papers/2610.40401/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.39280">
 <div class="card-kicker"><span>精选 02 · Cross-Controller Transfer via In-Context Behavior Adaptation</span><span>2026-10-29 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.39280/">Cross-Controller Transfer via In-Context Behavior Adaptation</a></h3>
 <p>它把“动作格式统一”推进到“相同动作在不同控制栈下的物理语义和策略也不同”，并用真实接触任务证明仅做系统辨识不够。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a></div><a class="read-link" href="../../papers/2610.39280/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.39528">
 <div class="card-kicker"><span>精选 03 · PRIME W0</span><span>2026-10-29 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.39528/">PRIME W0: Physical Priors from World Models for Embodied Manipulation</a></h3>
 <p>不是单纯“WM 辅助 VLA”的口号，而是把 WM 子目标作为推理期异步条件直接注入 action expert；但分数异常接近饱和，阅读时应把架构启发与证据可信度分开。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a><a class="pill" href="../../topics/world-models/">世界模型与 WAM</a><a class="pill" href="../../topics/memory/">记忆与技能</a></div><a class="read-link" href="../../papers/2610.39528/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.38000">
 <div class="card-kicker"><span>精选 04 · Self-Labeled Preference Transfer for Steerable Robot Manipulation</span><span>2026-10-27 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.38000/">Self-Labeled Preference Transfer for Steerable Robot Manipulation</a></h3>
 <p>关注“同一任务如何做”而非只做任务成功，且明确区分 preference following 与 task success；自标注机制很简单，但对可控 VLA 数据扩展很实用。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a></div><a class="read-link" href="../../papers/2610.38000/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.38027">
 <div class="card-kicker"><span>精选 05 · METATRON</span><span>2026-10-27 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.38027/">METATRON: A Promptable Whole-Body Execution Layer for Humanoids</a></h3>
 <p>它最有启发性的不是“又一个人形控制器”，而是把技能开发明确变成可检查、可由 coding agent 修改的程序层，而底层统一负责平衡和协调。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/agents/">智能体与程序学习</a><a class="pill" href="../../topics/memory/">记忆与技能</a></div><a class="read-link" href="../../papers/2610.38027/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.38199">
 <div class="card-kicker"><span>精选 06 · Embodied at Sea</span><span>2026-10-28 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.38199/">Embodied at Sea: Imitation Learning for Multi-Task Underwater Manipulation</a></h3>
 <p>它提供了罕见的大样本真实移动操作负结果：通用 VLA 在强 domain shift 下可能远输单任务 action chunking，提醒不要把基准上的“generalist”直接外推到现场。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a><a class="pill" href="../../topics/mobile-manipulation/">移动操作</a></div><a class="read-link" href="../../papers/2610.38199/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.39429">
 <div class="card-kicker"><span>精选 07 · ScheduleGen</span><span>2026-10-29 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.39429/">ScheduleGen: Demonstration Generation via Skill Scheduling for Multi-Arm Imitation Learning</a></h3>
 <p>把多臂数据扩展从简单时空变换提升到“接触技能＋连接规划＋并发调度”的完整管线，适合关注大系统与数据引擎的人。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/agents/">智能体与程序学习</a><a class="pill" href="../../topics/memory/">记忆与技能</a></div><a class="read-link" href="../../papers/2610.39429/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.40075">
 <div class="card-kicker"><span>精选 08 · Learning Safe Flow-Matching Robot Policies from Binary Feasibility Oracles</span><span>2026-10-29 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.40075/">Learning Safe Flow-Matching Robot Policies from Binary Feasibility Oracles</a></h3>
 <p>这是很典型的高价值“trick”：不需要显式可微约束，且边界信息进入训练；但距离真实时安全层还有显著延迟与验证缺口。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a><a class="pill" href="../../topics/world-models/">世界模型与 WAM</a></div><a class="read-link" href="../../papers/2610.40075/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.38104">
 <div class="card-kicker"><span>精选 09 · Same Label, Different Interface</span><span>2026-10-28 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.38104/">Same Label, Different Interface: Beyond Action-Space Labels in Robot Learning</a></h3>
 <p>这是评测方法论论文：它提醒任何跨模型/跨数据 VLA 对比都必须报告完整执行链，而不能把 action label 当作足够的控制变量。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a></div><a class="read-link" href="../../papers/2610.38104/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.37799">
 <div class="card-kicker"><span>精选 10 · DexSuite</span><span>2026-10-27 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.37799/">DexSuite: An All-in-One Framework for Dexterous Manipulation Across Arms, Hands, and Tasks</a></h3>
 <p>对后续 VLA/WAM 来说，它的价值是可系统控制 embodiment 与末端执行器变化，适合做跨机器人、双臂和灵巧性诊断，而不是作为一个新模型来读。</p>
@@ -9792,6 +9840,10 @@
     
     
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../assets/javascripts/reading-state.js"></script>
+      
+        <script src="../../assets/javascripts/reading-tracker.js"></script>
       
     
   </body>

@@ -1,0 +1,2834 @@
+{
+  "schemaVersion": 1,
+  "papers": [
+    {
+      "id": "2611.16728",
+      "title": "EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming",
+      "url": "papers/2611.16728/",
+      "arxivUrl": "https://arxiv.org/abs/2611.16728",
+      "date": "2026-11-14",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.16872",
+      "title": "ACE-CaP-0: Real-World Code-as-Policies in the Era of Experience",
+      "url": "papers/2611.16872/",
+      "arxivUrl": "https://arxiv.org/abs/2611.16872",
+      "date": "2026-11-14",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.16246",
+      "title": "What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation",
+      "url": "papers/2611.16246/",
+      "arxivUrl": "https://arxiv.org/abs/2611.16246",
+      "date": "2026-11-14",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "VLN · 视觉语言导航"
+      ]
+    },
+    {
+      "id": "2611.16589",
+      "title": "STVLA: Spatial-aware and Temporal-memory for Vision-Language-Action Models",
+      "url": "papers/2611.16589/",
+      "arxivUrl": "https://arxiv.org/abs/2611.16589",
+      "date": "2026-11-14",
+      "tags": [
+        "VLA 与策略学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.15491",
+      "title": "What Makes a VLA Reactive? A Study of Execution Strategies for Dynamic Manipulation",
+      "url": "papers/2611.15491/",
+      "arxivUrl": "https://arxiv.org/abs/2611.15491",
+      "date": "2026-11-14",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.16632",
+      "title": "Reins: Frontier Multimodal Models Driving Real Robot Arms on Long-Horizon Tasks, Zero-Shot",
+      "url": "papers/2611.16632/",
+      "arxivUrl": "https://arxiv.org/abs/2611.16632",
+      "date": "2026-11-14",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.10894",
+      "title": "Zero-Shot VLA Adaptation with Retrieved Guidance（RAGu）",
+      "url": "papers/2611.10894/",
+      "arxivUrl": "https://arxiv.org/abs/2611.10894",
+      "date": "2026-11-13",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.12983",
+      "title": "CAFE: Closed-Loop Autonomous Task Formulation and Execution without Instance-Specific Instructions",
+      "url": "papers/2611.12983/",
+      "arxivUrl": "https://arxiv.org/abs/2611.12983",
+      "date": "2026-11-13",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.11688",
+      "title": "Streaming Failure Forecasting: VLA Failure Monitors That Keep Learning After Deployment",
+      "url": "papers/2611.11688/",
+      "arxivUrl": "https://arxiv.org/abs/2611.11688",
+      "date": "2026-11-13",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.09892",
+      "title": "On Agentic Manipulation Policies",
+      "url": "papers/2611.09892/",
+      "arxivUrl": "https://arxiv.org/abs/2611.09892",
+      "date": "2026-11-12",
+      "tags": [
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2611.13818",
+      "title": "WAM is capable in BEHAVIOR-1K: the 2nd-place solution to the 2026 BEHAVIOR Challenge",
+      "url": "papers/2611.13818/",
+      "arxivUrl": "https://arxiv.org/abs/2611.13818",
+      "date": "2026-11-12",
+      "tags": [
+        "世界模型与 WAM",
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.14048",
+      "title": "LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning",
+      "url": "papers/2611.14048/",
+      "arxivUrl": "https://arxiv.org/abs/2611.14048",
+      "date": "2026-11-12",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.12409",
+      "title": "Bridging Task Planning and Execution for Language-Conditioned Bimanual Manipulation",
+      "url": "papers/2611.12409/",
+      "arxivUrl": "https://arxiv.org/abs/2611.12409",
+      "date": "2026-11-12",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.12678",
+      "title": "Library of Hands: Fix the Hands, Not the World Model",
+      "url": "papers/2611.12678/",
+      "arxivUrl": "https://arxiv.org/abs/2611.12678",
+      "date": "2026-11-12",
+      "tags": [
+        "世界模型与 WAM",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.12885",
+      "title": "World In-Context Learning for Agentic Robot Manipulation（RoboScript）",
+      "url": "papers/2611.12885/",
+      "arxivUrl": "https://arxiv.org/abs/2611.12885",
+      "date": "2026-11-12",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.12870",
+      "title": "SWAM: Scaling World Action Models with Cross-Modal Alignment",
+      "url": "papers/2611.12870/",
+      "arxivUrl": "https://arxiv.org/abs/2611.12870",
+      "date": "2026-11-12",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.11500",
+      "title": "ForeAct: Geometry-Guided Action Learning from World Representations",
+      "url": "papers/2611.11500/",
+      "arxivUrl": "https://arxiv.org/abs/2611.11500",
+      "date": "2026-11-12",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.11854",
+      "title": "DASH: Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation",
+      "url": "papers/2611.11854/",
+      "arxivUrl": "https://arxiv.org/abs/2611.11854",
+      "date": "2026-11-12",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.11981",
+      "title": "Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation",
+      "url": "papers/2611.11981/",
+      "arxivUrl": "https://arxiv.org/abs/2611.11981",
+      "date": "2026-11-12",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.10510",
+      "title": "ReSkill: Selective Self-Improvement for Robot Manipulation",
+      "url": "papers/2611.10510/",
+      "arxivUrl": "https://arxiv.org/abs/2611.10510",
+      "date": "2026-11-12",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.11798",
+      "title": "PAIR: Proprioception-Aligned Image-Ray Representations for Viewpoint-Robust Manipulation",
+      "url": "papers/2611.11798/",
+      "arxivUrl": "https://arxiv.org/abs/2611.11798",
+      "date": "2026-11-12",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.12806",
+      "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation（LingBot-Touch）",
+      "url": "papers/2611.12806/",
+      "arxivUrl": "https://arxiv.org/abs/2611.12806",
+      "date": "2026-11-12",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.14432",
+      "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
+      "url": "papers/2611.14432/",
+      "arxivUrl": "https://arxiv.org/abs/2611.14432",
+      "date": "2026-11-12",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.14257",
+      "title": "Elastic-WAM: Adaptive Spatiotemporal Imagination for Efficient Robot Control",
+      "url": "papers/2611.14257/",
+      "arxivUrl": "https://arxiv.org/abs/2611.14257",
+      "date": "2026-11-12",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.14488",
+      "title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
+      "url": "papers/2611.14488/",
+      "arxivUrl": "https://arxiv.org/abs/2611.14488",
+      "date": "2026-11-12",
+      "tags": [
+        "VLA 与策略学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.13160",
+      "title": "How Much of Your VLA Is kNN",
+      "url": "papers/2611.13160/",
+      "arxivUrl": "https://arxiv.org/abs/2611.13160",
+      "date": "2026-11-12",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.13039",
+      "title": "Robo-MLT: Dual-System Robotic Manipulation for Long-Horizon Medical Laboratory Tasks",
+      "url": "papers/2611.13039/",
+      "arxivUrl": "https://arxiv.org/abs/2611.13039",
+      "date": "2026-11-12",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.14115",
+      "title": "LEASH: Stay Safe in Agentic Robotics",
+      "url": "papers/2611.14115/",
+      "arxivUrl": "https://arxiv.org/abs/2611.14115",
+      "date": "2026-11-12",
+      "tags": [
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2611.14092",
+      "title": "DexSeed: Expanding Human Hand-Object Interactions into Robot Demonstrations for Dexterous Policy Learning",
+      "url": "papers/2611.14092/",
+      "arxivUrl": "https://arxiv.org/abs/2611.14092",
+      "date": "2026-11-12",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.13034",
+      "title": "RoboACE: Adversarial Co-Evolution for Robot Self-Improvement",
+      "url": "papers/2611.13034/",
+      "arxivUrl": "https://arxiv.org/abs/2611.13034",
+      "date": "2026-11-12",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.08039",
+      "title": "HITCH: A Generalist Humanoid Policy via Vision-Language Planning and Whole-Body Tracking",
+      "url": "papers/2611.08039/",
+      "arxivUrl": "https://arxiv.org/abs/2611.08039",
+      "date": "2026-11-08",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.08373",
+      "title": "SLA: Spatial Latent Alignment for Vision-Language-Action Models",
+      "url": "papers/2611.08373/",
+      "arxivUrl": "https://arxiv.org/abs/2611.08373",
+      "date": "2026-11-08",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.07532",
+      "title": "From Semantics to Contact: Language-Guided Residual Reinforcement Learning for Contact-Rich Manipulation",
+      "url": "papers/2611.07532/",
+      "arxivUrl": "https://arxiv.org/abs/2611.07532",
+      "date": "2026-11-08",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.08458",
+      "title": "Latent RL Priors for Data-Efficient Dexterous Manipulation",
+      "url": "papers/2611.08458/",
+      "arxivUrl": "https://arxiv.org/abs/2611.08458",
+      "date": "2026-11-08",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.08449",
+      "title": "VFlash: Fast Structured Visual Planning for Robot Manipulation",
+      "url": "papers/2611.08449/",
+      "arxivUrl": "https://arxiv.org/abs/2611.08449",
+      "date": "2026-11-08",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.07850",
+      "title": "RoboImagine: Improving Autoregressive Robot World Models with Post-Training",
+      "url": "papers/2611.07850/",
+      "arxivUrl": "https://arxiv.org/abs/2611.07850",
+      "date": "2026-11-08",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.08372",
+      "title": "MOMASPLAT: Dynamic Novel-View Demonstration Augmentation for Mobile Manipulation",
+      "url": "papers/2611.08372/",
+      "arxivUrl": "https://arxiv.org/abs/2611.08372",
+      "date": "2026-11-07",
+      "tags": [
+        "VLA 与策略学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.08462",
+      "title": "OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions",
+      "url": "papers/2611.08462/",
+      "arxivUrl": "https://arxiv.org/abs/2611.08462",
+      "date": "2026-11-07",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.08209",
+      "title": "RoboARCade: Benchmarking Agentic Robot Control",
+      "url": "papers/2611.08209/",
+      "arxivUrl": "https://arxiv.org/abs/2611.08209",
+      "date": "2026-11-07",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.08156",
+      "title": "La-JEPA: Compact Robot Policies with Latent World Modeling",
+      "url": "papers/2611.08156/",
+      "arxivUrl": "https://arxiv.org/abs/2611.08156",
+      "date": "2026-11-07",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.07229",
+      "title": "Spatial-UMI-Dream: Scaling World Action Models with Metric Geometry for UMI Manipulation",
+      "url": "papers/2611.07229/",
+      "arxivUrl": "https://arxiv.org/abs/2611.07229",
+      "date": "2026-11-07",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.07513",
+      "title": "Concertina: Embodying Manipulation and Cognition in One Diffusion Vision-Language Model",
+      "url": "papers/2611.07513/",
+      "arxivUrl": "https://arxiv.org/abs/2611.07513",
+      "date": "2026-11-07",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.08425",
+      "title": "Failure Prediction and Classification in VLA Models via Calibrated Latent Probing（VLA-Tug）",
+      "url": "papers/2611.08425/",
+      "arxivUrl": "https://arxiv.org/abs/2611.08425",
+      "date": "2026-11-07",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.08338",
+      "title": "GPWM: Modeling the World as 3D Particle Motion",
+      "url": "papers/2611.08338/",
+      "arxivUrl": "https://arxiv.org/abs/2611.08338",
+      "date": "2026-11-07",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.08318",
+      "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+      "url": "papers/2611.08318/",
+      "arxivUrl": "https://arxiv.org/abs/2611.08318",
+      "date": "2026-11-07",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.08413",
+      "title": "T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models",
+      "url": "papers/2611.08413/",
+      "arxivUrl": "https://arxiv.org/abs/2611.08413",
+      "date": "2026-11-07",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.06475",
+      "title": "RoboCasa-Mem: Benchmarking Environment and Process Memory in Long-Horizon Mobile Manipulation",
+      "url": "papers/2611.06475/",
+      "arxivUrl": "https://arxiv.org/abs/2611.06475",
+      "date": "2026-11-06",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.06654",
+      "title": "Compounding Physical RSI: Turning Execution Failure into Inherited Capability",
+      "url": "papers/2611.06654/",
+      "arxivUrl": "https://arxiv.org/abs/2611.06654",
+      "date": "2026-11-06",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2611.06905",
+      "title": "Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement",
+      "url": "papers/2611.06905/",
+      "arxivUrl": "https://arxiv.org/abs/2611.06905",
+      "date": "2026-11-06",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.06184",
+      "title": "Can Astra Solve RoboMME without Breaking the Bank?",
+      "url": "papers/2611.06184/",
+      "arxivUrl": "https://arxiv.org/abs/2611.06184",
+      "date": "2026-11-06",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.06447",
+      "title": "A³-VLA: Automatic Perception-Guided Attention Alignment for Robot Manipulation",
+      "url": "papers/2611.06447/",
+      "arxivUrl": "https://arxiv.org/abs/2611.06447",
+      "date": "2026-11-06",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.05571",
+      "title": "ELA: End-to-End Latent Action Policy Learning from Video Demonstrations",
+      "url": "papers/2611.05571/",
+      "arxivUrl": "https://arxiv.org/abs/2611.05571",
+      "date": "2026-11-06",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.05567",
+      "title": "MESA: An Evaluation Framework for Compositional, Semantic, and Spatial Generalization in Robotics",
+      "url": "papers/2611.05567/",
+      "arxivUrl": "https://arxiv.org/abs/2611.05567",
+      "date": "2026-11-06",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.05847",
+      "title": "Time-to-Goal: Learned Temporal Metrics for Long-Horizon Planning with JEPA World Models",
+      "url": "papers/2611.05847/",
+      "arxivUrl": "https://arxiv.org/abs/2611.05847",
+      "date": "2026-11-06",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.06118",
+      "title": "Online Adaptation to Latent Physical Properties for Learning from Demonstration",
+      "url": "papers/2611.06118/",
+      "arxivUrl": "https://arxiv.org/abs/2611.06118",
+      "date": "2026-11-06",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.06653",
+      "title": "Detecting Silent Action-Interface Mismatch with Calibrated Relational World Models",
+      "url": "papers/2611.06653/",
+      "arxivUrl": "https://arxiv.org/abs/2611.06653",
+      "date": "2026-11-06",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.04839",
+      "title": "Coordinating Humanoid Loco-Manipulation through Action-Conditioned Latent Foresight",
+      "url": "papers/2611.04839/",
+      "arxivUrl": "https://arxiv.org/abs/2611.04839",
+      "date": "2026-11-05",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.04391",
+      "title": "Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs",
+      "url": "papers/2611.04391/",
+      "arxivUrl": "https://arxiv.org/abs/2611.04391",
+      "date": "2026-11-05",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.04492",
+      "title": "Hybrid Particle-Voxel Dynamics for Multimodal 3D World Simulation",
+      "url": "papers/2611.04492/",
+      "arxivUrl": "https://arxiv.org/abs/2611.04492",
+      "date": "2026-11-05",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.05249",
+      "title": "Should the Action Expert Train the VLM? Action-Token Supervision and Gradient Routing in Mixture-of-Transformer VLAs",
+      "url": "papers/2611.05249/",
+      "arxivUrl": "https://arxiv.org/abs/2611.05249",
+      "date": "2026-11-05",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.05058",
+      "title": "Do Agentic Policies Need to Look at Every Step? Geometric Abstraction for Reasoning and Action",
+      "url": "papers/2611.05058/",
+      "arxivUrl": "https://arxiv.org/abs/2611.05058",
+      "date": "2026-11-05",
+      "tags": [
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2611.04522",
+      "title": "Action Intent as a Bridge: Transferring Manipulation Knowledge from Human-Centric Videos to Robots",
+      "url": "papers/2611.04522/",
+      "arxivUrl": "https://arxiv.org/abs/2611.04522",
+      "date": "2026-11-05",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.04493",
+      "title": "Physical Diffusion Policy via MPM-Guided 3D Gaussian Simulation",
+      "url": "papers/2611.04493/",
+      "arxivUrl": "https://arxiv.org/abs/2611.04493",
+      "date": "2026-11-05",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.05155",
+      "title": "Asynchronous Robot Policies",
+      "url": "papers/2611.05155/",
+      "arxivUrl": "https://arxiv.org/abs/2611.05155",
+      "date": "2026-11-05",
+      "tags": [
+        "VLA 与策略学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.04477",
+      "title": "Spectrally Routed Diffusion Policy for Multi-Task Robotic Manipulation",
+      "url": "papers/2611.04477/",
+      "arxivUrl": "https://arxiv.org/abs/2611.04477",
+      "date": "2026-11-05",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.04166",
+      "title": "Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in Reasoning VLAs",
+      "url": "papers/2611.04166/",
+      "arxivUrl": "https://arxiv.org/abs/2611.04166",
+      "date": "2026-11-05",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.03648",
+      "title": "Pixel: A Compact and Cost-Effective Mobile Manipulator for Generalizable Whole-Body Manipulation",
+      "url": "papers/2611.03648/",
+      "arxivUrl": "https://arxiv.org/abs/2611.03648",
+      "date": "2026-11-04",
+      "tags": [
+        "VLA 与策略学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.00513",
+      "title": "WorldSketch: Embodied Reasoning via Visual-Validated World Models",
+      "url": "papers/2611.00513/",
+      "arxivUrl": "https://arxiv.org/abs/2611.00513",
+      "date": "2026-11-04",
+      "tags": [
+        "世界模型与 WAM",
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2511.00917",
+      "title": "MAESTRO: An Agentic Framework for Scalable and Generalizable Robot Skill Acquisition",
+      "url": "papers/2511.00917/",
+      "arxivUrl": "https://arxiv.org/abs/2511.00917",
+      "date": "2026-11-04",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.03647",
+      "title": "Pixel-UMI: Learning Whole-Body Mobile Manipulation from Human Videos",
+      "url": "papers/2611.03647/",
+      "arxivUrl": "https://arxiv.org/abs/2611.03647",
+      "date": "2026-11-04",
+      "tags": [
+        "VLA 与策略学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.01112",
+      "title": "Auriga: Building Generalizable Agentic Robot Systems via Task-Agnostic Harness Design",
+      "url": "papers/2611.01112/",
+      "arxivUrl": "https://arxiv.org/abs/2611.01112",
+      "date": "2026-11-04",
+      "tags": [
+        "智能体与程序学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.02777",
+      "title": "Beyond Policy Patches: Critic-Guided Distillation for Repairing Vision-Language-Action Models",
+      "url": "papers/2611.02777/",
+      "arxivUrl": "https://arxiv.org/abs/2611.02777",
+      "date": "2026-11-04",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.01215",
+      "title": "JADE: Joint Action Denoising for Vision-Language-Action Models",
+      "url": "papers/2611.01215/",
+      "arxivUrl": "https://arxiv.org/abs/2611.01215",
+      "date": "2026-11-04",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.02660",
+      "title": "HeLM: Hierarchical Language Memory for Long-Horizon Embodied Control",
+      "url": "papers/2611.02660/",
+      "arxivUrl": "https://arxiv.org/abs/2611.02660",
+      "date": "2026-11-04",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.00634",
+      "title": "PREM: Predictive Recurrent Embodied Memory for Vision-Language-Action Models",
+      "url": "papers/2611.00634/",
+      "arxivUrl": "https://arxiv.org/abs/2611.00634",
+      "date": "2026-11-04",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.01390",
+      "title": "Same Path, Less Time: Training-Free Trajectory Time-Scaling for Chunked Robot Policies",
+      "url": "papers/2611.01390/",
+      "arxivUrl": "https://arxiv.org/abs/2611.01390",
+      "date": "2026-11-04",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.40748",
+      "title": "WorldBridge: Scaling World Models for Robot Learning with Unlabeled Videos",
+      "url": "papers/2610.40748/",
+      "arxivUrl": "https://arxiv.org/abs/2610.40748",
+      "date": "2026-11-03",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.40799",
+      "title": "CaPtain: A Physical-Critic Post-Training Pipeline for Robot Agents",
+      "url": "papers/2610.40799/",
+      "arxivUrl": "https://arxiv.org/abs/2610.40799",
+      "date": "2026-11-03",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.42053",
+      "title": "REA: Runtime Embodied Agency without Waiting for the Brain",
+      "url": "papers/2610.42053/",
+      "arxivUrl": "https://arxiv.org/abs/2610.42053",
+      "date": "2026-11-03",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.42141",
+      "title": "RoboArchitect: Self-Improving Agent Harnesses for Robot Policies",
+      "url": "papers/2610.42141/",
+      "arxivUrl": "https://arxiv.org/abs/2610.42141",
+      "date": "2026-11-03",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2610.41216",
+      "title": "TinyAstral: Distilling Self-Improving Robot Agents into Small Models",
+      "url": "papers/2610.41216/",
+      "arxivUrl": "https://arxiv.org/abs/2610.41216",
+      "date": "2026-11-03",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.40828",
+      "title": "From Teleoperation to Long-Horizon Dexterity: A Controlled Study of Imitation Learning Design Choices",
+      "url": "papers/2610.40828/",
+      "arxivUrl": "https://arxiv.org/abs/2610.40828",
+      "date": "2026-11-03",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.41028",
+      "title": "CIMI: Contact-Invariant Manipulation Imitation from Robot-Free Human Demonstrations",
+      "url": "papers/2610.41028/",
+      "arxivUrl": "https://arxiv.org/abs/2610.41028",
+      "date": "2026-11-03",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.41643",
+      "title": "Direct Action-Manifold Modeling for Efficient and Robust Bimanual Manipulation (DMAT)",
+      "url": "papers/2610.41643/",
+      "arxivUrl": "https://arxiv.org/abs/2610.41643",
+      "date": "2026-11-03",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.41609",
+      "title": "VLA Policies Do Not Know When Not to Act",
+      "url": "papers/2610.41609/",
+      "arxivUrl": "https://arxiv.org/abs/2610.41609",
+      "date": "2026-11-03",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.41857",
+      "title": "SimuGuard: Auditing Contact Artifacts in Robot Simulation Benchmarks",
+      "url": "papers/2610.41857/",
+      "arxivUrl": "https://arxiv.org/abs/2610.41857",
+      "date": "2026-11-03",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.40401",
+      "title": "Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors",
+      "url": "papers/2610.40401/",
+      "arxivUrl": "https://arxiv.org/abs/2610.40401",
+      "date": "2026-11-02",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.39280",
+      "title": "Cross-Controller Transfer via In-Context Behavior Adaptation",
+      "url": "papers/2610.39280/",
+      "arxivUrl": "https://arxiv.org/abs/2610.39280",
+      "date": "2026-11-02",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.39528",
+      "title": "PRIME W0: Physical Priors from World Models for Embodied Manipulation",
+      "url": "papers/2610.39528/",
+      "arxivUrl": "https://arxiv.org/abs/2610.39528",
+      "date": "2026-11-02",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.38000",
+      "title": "Self-Labeled Preference Transfer for Steerable Robot Manipulation",
+      "url": "papers/2610.38000/",
+      "arxivUrl": "https://arxiv.org/abs/2610.38000",
+      "date": "2026-11-02",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.38027",
+      "title": "METATRON: A Promptable Whole-Body Execution Layer for Humanoids",
+      "url": "papers/2610.38027/",
+      "arxivUrl": "https://arxiv.org/abs/2610.38027",
+      "date": "2026-11-02",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.38199",
+      "title": "Embodied at Sea: Imitation Learning for Multi-Task Underwater Manipulation",
+      "url": "papers/2610.38199/",
+      "arxivUrl": "https://arxiv.org/abs/2610.38199",
+      "date": "2026-11-02",
+      "tags": [
+        "VLA 与策略学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.39429",
+      "title": "ScheduleGen: Demonstration Generation via Skill Scheduling for Multi-Arm Imitation Learning",
+      "url": "papers/2610.39429/",
+      "arxivUrl": "https://arxiv.org/abs/2610.39429",
+      "date": "2026-11-02",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.40075",
+      "title": "Learning Safe Flow-Matching Robot Policies from Binary Feasibility Oracles",
+      "url": "papers/2610.40075/",
+      "arxivUrl": "https://arxiv.org/abs/2610.40075",
+      "date": "2026-11-02",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.38104",
+      "title": "Same Label, Different Interface: Beyond Action-Space Labels in Robot Learning",
+      "url": "papers/2610.38104/",
+      "arxivUrl": "https://arxiv.org/abs/2610.38104",
+      "date": "2026-11-02",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.37799",
+      "title": "DexSuite: An All-in-One Framework for Dexterous Manipulation Across Arms, Hands, and Tasks",
+      "url": "papers/2610.37799/",
+      "arxivUrl": "https://arxiv.org/abs/2610.37799",
+      "date": "2026-11-02",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.38388",
+      "title": "ELEVATE: Agentic Controller Acquisition from Task Failure for Quadrupedal Manipulation",
+      "url": "papers/2610.38388/",
+      "arxivUrl": "https://arxiv.org/abs/2610.38388",
+      "date": "2026-11-01",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.40248",
+      "title": "LLM-guided Planar Loco-Manipulation for Quadruped Robots",
+      "url": "papers/2610.40248/",
+      "arxivUrl": "https://arxiv.org/abs/2610.40248",
+      "date": "2026-11-01",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.40016",
+      "title": "LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks",
+      "url": "papers/2610.40016/",
+      "arxivUrl": "https://arxiv.org/abs/2610.40016",
+      "date": "2026-11-01",
+      "tags": [
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2610.39367",
+      "title": "Utility-WAM: Correcting Future-Induced Action Changes",
+      "url": "papers/2610.39367/",
+      "arxivUrl": "https://arxiv.org/abs/2610.39367",
+      "date": "2026-11-01",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.40373",
+      "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
+      "url": "papers/2610.40373/",
+      "arxivUrl": "https://arxiv.org/abs/2610.40373",
+      "date": "2026-11-01",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.39543",
+      "title": "From Reasoning to Action: Consequence-Grounded Alignment for Vision-Language-Action Models",
+      "url": "papers/2610.39543/",
+      "arxivUrl": "https://arxiv.org/abs/2610.39543",
+      "date": "2026-11-01",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.39054",
+      "title": "Robotic Data Inoculation",
+      "url": "papers/2610.39054/",
+      "arxivUrl": "https://arxiv.org/abs/2610.39054",
+      "date": "2026-11-01",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.40207",
+      "title": "RoboAtom: Large-scale Atomic-Action Supervision for Robot Learning",
+      "url": "papers/2610.40207/",
+      "arxivUrl": "https://arxiv.org/abs/2610.40207",
+      "date": "2026-11-01",
+      "tags": [
+        "VLA 与策略学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.37917",
+      "title": "What Actually Matters? A Paired Evaluation of Inference Settings for π0.5 on BEHAVIOR-1K",
+      "url": "papers/2610.37917/",
+      "arxivUrl": "https://arxiv.org/abs/2610.37917",
+      "date": "2026-11-01",
+      "tags": [
+        "VLA 与策略学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.40646",
+      "title": "SwapBot: Tool-Centric Robot Manipulation via Interchangeable End-Effectors and Tactile Sensing",
+      "url": "papers/2610.40646/",
+      "arxivUrl": "https://arxiv.org/abs/2610.40646",
+      "date": "2026-11-01",
+      "tags": [
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.36533",
+      "title": "RoboAuto: Autonomous Robot Program Search through Multi-Level Physical Understanding",
+      "url": "papers/2610.36533/",
+      "arxivUrl": "https://arxiv.org/abs/2610.36533",
+      "date": "2026-10-30",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.36823",
+      "title": "Tapestry: A Single Backbone for Video Generation and Robot Control",
+      "url": "papers/2610.36823/",
+      "arxivUrl": "https://arxiv.org/abs/2610.36823",
+      "date": "2026-10-30",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.36840",
+      "title": "Trace-WAM: Learning to Act via 3D Motion Prediction for World Action Models",
+      "url": "papers/2610.36840/",
+      "arxivUrl": "https://arxiv.org/abs/2610.36840",
+      "date": "2026-10-30",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.37666",
+      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+      "url": "papers/2610.37666/",
+      "arxivUrl": "https://arxiv.org/abs/2610.37666",
+      "date": "2026-10-30",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.37219",
+      "title": "Vision-Language-Action or World-Action? Just Action Models",
+      "url": "papers/2610.37219/",
+      "arxivUrl": "https://arxiv.org/abs/2610.37219",
+      "date": "2026-10-30",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2602.18020",
+      "title": "AWARE: Attention-Weighted Action Reasoning Enhances Vision-Language-Action Models",
+      "url": "papers/2602.18020/",
+      "arxivUrl": "https://arxiv.org/abs/2602.18020",
+      "date": "2026-10-30",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.37381",
+      "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
+      "url": "papers/2610.37381/",
+      "arxivUrl": "https://arxiv.org/abs/2610.37381",
+      "date": "2026-10-30",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.37547",
+      "title": "When, Where, and What to Correct: Human-Guided Adaptive Residual Correction for Robot Policies",
+      "url": "papers/2610.37547/",
+      "arxivUrl": "https://arxiv.org/abs/2610.37547",
+      "date": "2026-10-30",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.37652",
+      "title": "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well",
+      "url": "papers/2610.37652/",
+      "arxivUrl": "https://arxiv.org/abs/2610.37652",
+      "date": "2026-10-30",
+      "tags": [
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.36725",
+      "title": "On Shaky Ground: Characterising Non-Rigid Base Effects in Mobile Manipulation",
+      "url": "papers/2610.36725/",
+      "arxivUrl": "https://arxiv.org/abs/2610.36725",
+      "date": "2026-10-30",
+      "tags": [
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.36068",
+      "title": "Rollback: Experience Backtracking in World Models for Policy Improvement",
+      "url": "papers/2610.36068/",
+      "arxivUrl": "https://arxiv.org/abs/2610.36068",
+      "date": "2026-10-29",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.36011",
+      "title": "E0.5: From Reconstructive to Future-Predictive 3D Foundations for Robotic World-Action Modeling",
+      "url": "papers/2610.36011/",
+      "arxivUrl": "https://arxiv.org/abs/2610.36011",
+      "date": "2026-10-29",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.36270",
+      "title": "Learning Multi-Phase Robot Loco-Manipulation via Phase-Conditioned Policy Optimization",
+      "url": "papers/2610.36270/",
+      "arxivUrl": "https://arxiv.org/abs/2610.36270",
+      "date": "2026-10-29",
+      "tags": [
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.36791",
+      "title": "RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions",
+      "url": "papers/2610.36791/",
+      "arxivUrl": "https://arxiv.org/abs/2610.36791",
+      "date": "2026-10-29",
+      "tags": [
+        "世界模型与 WAM",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.37518",
+      "title": "World Dreamer v5-lite: A Multi-Robot World Action Model with One Dreamer",
+      "url": "papers/2610.37518/",
+      "arxivUrl": "https://arxiv.org/abs/2610.37518",
+      "date": "2026-10-29",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.37196",
+      "title": "How Much Can Best-of-N Help a World Action Model? Measuring Selectable Headroom and Realizing It in Closed Loop",
+      "url": "papers/2610.37196/",
+      "arxivUrl": "https://arxiv.org/abs/2610.37196",
+      "date": "2026-10-29",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.37170",
+      "title": "From 12 to 200 Demonstrations: How ACT, Diffusion Policy, SmolVLA and π0.5 Scale on a Low-Cost Arm",
+      "url": "papers/2610.37170/",
+      "arxivUrl": "https://arxiv.org/abs/2610.37170",
+      "date": "2026-10-29",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.36694",
+      "title": "TOPS: Reshaping Flow Source and Transport for Multi-Task Robot Manipulation",
+      "url": "papers/2610.36694/",
+      "arxivUrl": "https://arxiv.org/abs/2610.36694",
+      "date": "2026-10-29",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.37215",
+      "title": "Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution",
+      "url": "papers/2610.37215/",
+      "arxivUrl": "https://arxiv.org/abs/2610.37215",
+      "date": "2026-10-29",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.37378",
+      "title": "VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning",
+      "url": "papers/2610.37378/",
+      "arxivUrl": "https://arxiv.org/abs/2610.37378",
+      "date": "2026-10-29",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.34370",
+      "title": "ThinkLocoManip: A Whole-Body Control Agentic Harness for Legged Loco-Manipulation",
+      "url": "papers/2610.34370/",
+      "arxivUrl": "https://arxiv.org/abs/2610.34370",
+      "date": "2026-10-28",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.34356",
+      "title": "RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions",
+      "url": "papers/2610.34356/",
+      "arxivUrl": "https://arxiv.org/abs/2610.34356",
+      "date": "2026-10-28",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.35075",
+      "title": "Zero-HLM: Generalizable Humanoid Loco-Manipulation without Real Robot Data",
+      "url": "papers/2610.35075/",
+      "arxivUrl": "https://arxiv.org/abs/2610.35075",
+      "date": "2026-10-28",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.35862",
+      "title": "Learning Force-Reactive Humanoid Loco-Manipulation (FLORE)",
+      "url": "papers/2610.35862/",
+      "arxivUrl": "https://arxiv.org/abs/2610.35862",
+      "date": "2026-10-28",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.35817",
+      "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent (ZAP)",
+      "url": "papers/2610.35817/",
+      "arxivUrl": "https://arxiv.org/abs/2610.35817",
+      "date": "2026-10-28",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2610.34105",
+      "title": "X-World: Transferring Video Priors to Variable-View Robot Control",
+      "url": "papers/2610.34105/",
+      "arxivUrl": "https://arxiv.org/abs/2610.34105",
+      "date": "2026-10-28",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.34108",
+      "title": "RoboDuo: Attempt, Check and Atomic Recovery through Code for Vision-Language-Action Models",
+      "url": "papers/2610.34108/",
+      "arxivUrl": "https://arxiv.org/abs/2610.34108",
+      "date": "2026-10-28",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.34593",
+      "title": "What Does World Modeling Actually Improve in Robot Action Learning?",
+      "url": "papers/2610.34593/",
+      "arxivUrl": "https://arxiv.org/abs/2610.34593",
+      "date": "2026-10-28",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.33863",
+      "title": "RoboLongR: Causally Consistent Rewards Teach Robots to Progressively Master Long-Horizon Manipulation",
+      "url": "papers/2610.33863/",
+      "arxivUrl": "https://arxiv.org/abs/2610.33863",
+      "date": "2026-10-28",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2610.33446",
+      "title": "MOTIO: Agentic Skill Engineering for Reality-Grounded Humanoid Loco-Manipulation",
+      "url": "papers/2610.33446/",
+      "arxivUrl": "https://arxiv.org/abs/2610.33446",
+      "date": "2026-10-28",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.32965",
+      "title": "RynnUnify: Towards Unified Embodied Brain",
+      "url": "papers/2610.32965/",
+      "arxivUrl": "https://arxiv.org/abs/2610.32965",
+      "date": "2026-10-27",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2610.31845",
+      "title": "EgoForesight: Effectively Scaling Policy Learning with Noisy Egocentric Actions",
+      "url": "papers/2610.31845/",
+      "arxivUrl": "https://arxiv.org/abs/2610.31845",
+      "date": "2026-10-27",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.31841",
+      "title": "FORCA: A Force-Aware Coding Agent for Contact-Rich Robot Manipulation",
+      "url": "papers/2610.31841/",
+      "arxivUrl": "https://arxiv.org/abs/2610.31841",
+      "date": "2026-10-27",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.32271",
+      "title": "From Tabletop to Walking Bot: Deploying a VLA Model on a Legged Manipulator Robot",
+      "url": "papers/2610.32271/",
+      "arxivUrl": "https://arxiv.org/abs/2610.32271",
+      "date": "2026-10-27",
+      "tags": [
+        "VLA 与策略学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.32348",
+      "title": "LogLook: Execution-Grounded Memory for Frontier-Model Robot Planners",
+      "url": "papers/2610.32348/",
+      "arxivUrl": "https://arxiv.org/abs/2610.32348",
+      "date": "2026-10-27",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.32102",
+      "title": "Coupling Execution Horizon and Sampling Depth in Flow-Matching VLA Policies",
+      "url": "papers/2610.32102/",
+      "arxivUrl": "https://arxiv.org/abs/2610.32102",
+      "date": "2026-10-27",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.32330",
+      "title": "DynaSlots: Slot-Centric 3D Dynamics Pretraining for Robot Manipulation",
+      "url": "papers/2610.32330/",
+      "arxivUrl": "https://arxiv.org/abs/2610.32330",
+      "date": "2026-10-27",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.32941",
+      "title": "If at First You Don’t Succeed, Backtrack: Lightweight Recovery for Frozen VLAs",
+      "url": "papers/2610.32941/",
+      "arxivUrl": "https://arxiv.org/abs/2610.32941",
+      "date": "2026-10-27",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.31779",
+      "title": "FLORA: An Open Model Suite for Scaling Robotics Data Engines",
+      "url": "papers/2610.31779/",
+      "arxivUrl": "https://arxiv.org/abs/2610.31779",
+      "date": "2026-10-27",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2610.31859",
+      "title": "Full-Weight VLA Fine-Tuning Without an fp32 Master Copy Silently Erases Most Updates",
+      "url": "papers/2610.31859/",
+      "arxivUrl": "https://arxiv.org/abs/2610.31859",
+      "date": "2026-10-27",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2609.39304",
+      "title": "Scale and Selection: What Makes Automatic Harness Evolution Work for Visual-Interface Robot Agents",
+      "url": "papers/2609.39304/",
+      "arxivUrl": "https://arxiv.org/abs/2609.39304",
+      "date": "2026-10-25",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.25287",
+      "title": "The Bitter Lesson Comes to Robotics",
+      "url": "papers/2610.25287/",
+      "arxivUrl": "https://arxiv.org/abs/2610.25287",
+      "date": "2026-10-25",
+      "tags": [
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2610.31166",
+      "title": "Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation",
+      "url": "papers/2610.31166/",
+      "arxivUrl": "https://arxiv.org/abs/2610.31166",
+      "date": "2026-10-24",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.30320",
+      "title": "Self-Distilling Future Video Representations for World Action Models（FRED）",
+      "url": "papers/2610.30320/",
+      "arxivUrl": "https://arxiv.org/abs/2610.30320",
+      "date": "2026-10-24",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.31569",
+      "title": "Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models",
+      "url": "papers/2610.31569/",
+      "arxivUrl": "https://arxiv.org/abs/2610.31569",
+      "date": "2026-10-24",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.30991",
+      "title": "UniFlowWAM: A Unified World–Action Model with Visual Semantics and 4D Geometry",
+      "url": "papers/2610.30991/",
+      "arxivUrl": "https://arxiv.org/abs/2610.30991",
+      "date": "2026-10-24",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.31613",
+      "title": "Progress Probes P²: Lightweight Runtime Monitoring for Vision-Language-Action Models",
+      "url": "papers/2610.31613/",
+      "arxivUrl": "https://arxiv.org/abs/2610.31613",
+      "date": "2026-10-24",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.31423",
+      "title": "FocusVLA: Future-Intent Guided Dynamic View Routing for Vision-Language-Action Models",
+      "url": "papers/2610.31423/",
+      "arxivUrl": "https://arxiv.org/abs/2610.31423",
+      "date": "2026-10-24",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.30735",
+      "title": "When One Step Is Enough: An Empirical Study of Euler Integration in Flow-Matching Policies",
+      "url": "papers/2610.30735/",
+      "arxivUrl": "https://arxiv.org/abs/2610.30735",
+      "date": "2026-10-24",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.30876",
+      "title": "LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation",
+      "url": "papers/2610.30876/",
+      "arxivUrl": "https://arxiv.org/abs/2610.30876",
+      "date": "2026-10-24",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.30988",
+      "title": "In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations",
+      "url": "papers/2610.30988/",
+      "arxivUrl": "https://arxiv.org/abs/2610.30988",
+      "date": "2026-10-24",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.31427",
+      "title": "FastHarness: Experience-Driven Review Scheduling for Vision-Language-Action Policies",
+      "url": "papers/2610.31427/",
+      "arxivUrl": "https://arxiv.org/abs/2610.31427",
+      "date": "2026-10-24",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2610.30136",
+      "title": "Agentic World Action Models（AW-0）",
+      "url": "papers/2610.30136/",
+      "arxivUrl": "https://arxiv.org/abs/2610.30136",
+      "date": "2026-10-23",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.30117",
+      "title": "CW-WAM: A Structured Contact-Wrench World Action Model for Force-Sensitive Manipulation",
+      "url": "papers/2610.30117/",
+      "arxivUrl": "https://arxiv.org/abs/2610.30117",
+      "date": "2026-10-23",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.30097",
+      "title": "AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation",
+      "url": "papers/2610.30097/",
+      "arxivUrl": "https://arxiv.org/abs/2610.30097",
+      "date": "2026-10-23",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.29716",
+      "title": "SpatialDex: Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos",
+      "url": "papers/2610.29716/",
+      "arxivUrl": "https://arxiv.org/abs/2610.29716",
+      "date": "2026-10-23",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.29692",
+      "title": "FlowVLA: Learning Flow-Aware Physical Completion for Quantitative Robotic Pouring",
+      "url": "papers/2610.29692/",
+      "arxivUrl": "https://arxiv.org/abs/2610.29692",
+      "date": "2026-10-23",
+      "tags": [
+        "VLA 与策略学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.29329",
+      "title": "Plan First, Act Later: Streaming Reasoning for Executable Memory in Robot Control（PAL）",
+      "url": "papers/2610.29329/",
+      "arxivUrl": "https://arxiv.org/abs/2610.29329",
+      "date": "2026-10-23",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.29560",
+      "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation（SERA）",
+      "url": "papers/2610.29560/",
+      "arxivUrl": "https://arxiv.org/abs/2610.29560",
+      "date": "2026-10-23",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.29264",
+      "title": "Training in Deployment: Human-in-the-loop Online Post-Training for Robot Manipulation（TIDE）",
+      "url": "papers/2610.29264/",
+      "arxivUrl": "https://arxiv.org/abs/2610.29264",
+      "date": "2026-10-23",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.29730",
+      "title": "Post-hoc Epistemic Uncertainty for Vision-Language-Action Policies",
+      "url": "papers/2610.29730/",
+      "arxivUrl": "https://arxiv.org/abs/2610.29730",
+      "date": "2026-10-23",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.30129",
+      "title": "Rethinking Video Autoencoders for Interactive World Models（CADRE）",
+      "url": "papers/2610.30129/",
+      "arxivUrl": "https://arxiv.org/abs/2610.30129",
+      "date": "2026-10-23",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.28626",
+      "title": "UniWALM: Unified World Action Language Model for Embodied Robot Control",
+      "url": "papers/2610.28626/",
+      "arxivUrl": "https://arxiv.org/abs/2610.28626",
+      "date": "2026-10-22",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.28613",
+      "title": "Physical Canvas: A Vision-Tactile World Model for Robot Policy Evaluation and Learning",
+      "url": "papers/2610.28613/",
+      "arxivUrl": "https://arxiv.org/abs/2610.28613",
+      "date": "2026-10-22",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.28122",
+      "title": "De-Diffusing WAMs: Action-Sufficient Direct Prediction for Robot Control",
+      "url": "papers/2610.28122/",
+      "arxivUrl": "https://arxiv.org/abs/2610.28122",
+      "date": "2026-10-22",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.28019",
+      "title": "PACT-VLA: Speculative Action-Chunk Verification with Pre-Commit Observations",
+      "url": "papers/2610.28019/",
+      "arxivUrl": "https://arxiv.org/abs/2610.28019",
+      "date": "2026-10-22",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.28589",
+      "title": "AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics",
+      "url": "papers/2610.28589/",
+      "arxivUrl": "https://arxiv.org/abs/2610.28589",
+      "date": "2026-10-22",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.27917",
+      "title": "EventSync: Event-Driven Memory Updates for History-Dependent Manipulation",
+      "url": "papers/2610.27917/",
+      "arxivUrl": "https://arxiv.org/abs/2610.27917",
+      "date": "2026-10-22",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.27613",
+      "title": "Tactile-ETA: Embodied Task Agents Can Perform Fine Manipulation through Tactile In-Context Learning",
+      "url": "papers/2610.27613/",
+      "arxivUrl": "https://arxiv.org/abs/2610.27613",
+      "date": "2026-10-22",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.28166",
+      "title": "Reasoning as a Distribution: Generative Plan Latents for VLA Models",
+      "url": "papers/2610.28166/",
+      "arxivUrl": "https://arxiv.org/abs/2610.28166",
+      "date": "2026-10-22",
+      "tags": [
+        "VLA 与策略学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.27861",
+      "title": "RoboCasa-Shift: Stage-Aware Robustness Evaluation of VLAs in Long-Horizon Household Manipulation",
+      "url": "papers/2610.27861/",
+      "arxivUrl": "https://arxiv.org/abs/2610.27861",
+      "date": "2026-10-22",
+      "tags": [
+        "VLA 与策略学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.28109",
+      "title": "FIT-MAC: A Closed-Loop Multi-Agent Framework for Robust VLAs",
+      "url": "papers/2610.28109/",
+      "arxivUrl": "https://arxiv.org/abs/2610.28109",
+      "date": "2026-10-22",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2610.25763",
+      "title": "TrajWAM: Trajectory-Guided World Action Model for Dynamic Manipulation",
+      "url": "papers/2610.25763/",
+      "arxivUrl": "https://arxiv.org/abs/2610.25763",
+      "date": "2026-10-21",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.25961",
+      "title": "PaceVLA: Adaptive Action Quantization for Vision-Language-Action Models",
+      "url": "papers/2610.25961/",
+      "arxivUrl": "https://arxiv.org/abs/2610.25961",
+      "date": "2026-10-21",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.25736",
+      "title": "Learning from Fleet Experience: Failure-Conditioned Retrieval and Training",
+      "url": "papers/2610.25736/",
+      "arxivUrl": "https://arxiv.org/abs/2610.25736",
+      "date": "2026-10-21",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.26584",
+      "title": "HAF-VLA: Hierarchical Action Flow for Whole-Body Humanoid Manipulation",
+      "url": "papers/2610.26584/",
+      "arxivUrl": "https://arxiv.org/abs/2610.26584",
+      "date": "2026-10-21",
+      "tags": [
+        "VLA 与策略学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.25600",
+      "title": "VQ-WM: Vector-Quantized World Models for Visual Planning",
+      "url": "papers/2610.25600/",
+      "arxivUrl": "https://arxiv.org/abs/2610.25600",
+      "date": "2026-10-21",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.25874",
+      "title": "VLDA: Visual Latent Delta Action Models",
+      "url": "papers/2610.25874/",
+      "arxivUrl": "https://arxiv.org/abs/2610.25874",
+      "date": "2026-10-21",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.24507",
+      "title": "GazeAct: Learning Manipulation from Human Gaze",
+      "url": "papers/2610.24507/",
+      "arxivUrl": "https://arxiv.org/abs/2610.24507",
+      "date": "2026-10-21",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.26455",
+      "title": "ALIGN: Direct Categorical Advantage Conditioning for VLA Policies",
+      "url": "papers/2610.26455/",
+      "arxivUrl": "https://arxiv.org/abs/2610.26455",
+      "date": "2026-10-21",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.26487",
+      "title": "SPAR: Structurally Pruned Action Reasoning for Efficient VLAs",
+      "url": "papers/2610.26487/",
+      "arxivUrl": "https://arxiv.org/abs/2610.26487",
+      "date": "2026-10-21",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.24512",
+      "title": "ContactBench 1.0: Benchmarking Contact-Rich Manipulation",
+      "url": "papers/2610.24512/",
+      "arxivUrl": "https://arxiv.org/abs/2610.24512",
+      "date": "2026-10-21",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.22496",
+      "title": "RAX — Scaling Online Exploration for Robot Agents",
+      "url": "papers/2610.22496/",
+      "arxivUrl": "https://arxiv.org/abs/2610.22496",
+      "date": "2026-10-20",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.23769",
+      "title": "PRIME — Not All Actions Contribute Equally: Learning Precise Progress Estimation from Imprecise Demonstrations",
+      "url": "papers/2610.23769/",
+      "arxivUrl": "https://arxiv.org/abs/2610.23769",
+      "date": "2026-10-20",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.17540",
+      "title": "TacitVLA — Reasoning Vision-Language-Action Models Without Reasoning Latency",
+      "url": "papers/2610.17540/",
+      "arxivUrl": "https://arxiv.org/abs/2610.17540",
+      "date": "2026-10-20",
+      "tags": [
+        "VLA 与策略学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.23372",
+      "title": "IMEP — Beyond Success Rate: Interventional Evaluation of Memory in Vision-Language-Action Systems",
+      "url": "papers/2610.23372/",
+      "arxivUrl": "https://arxiv.org/abs/2610.23372",
+      "date": "2026-10-20",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.22193",
+      "title": "MOSS — Mode-Oriented Source Shaping for Robot Flow Matching Policies",
+      "url": "papers/2610.22193/",
+      "arxivUrl": "https://arxiv.org/abs/2610.22193",
+      "date": "2026-10-20",
+      "tags": [
+        "其他具身方向"
+      ]
+    },
+    {
+      "id": "2610.18835",
+      "title": "RoboSimStudio — An Interactive Toolkit for Human and Agent Rapid Real2Sim of Robot Manipulation Tasks",
+      "url": "papers/2610.18835/",
+      "arxivUrl": "https://arxiv.org/abs/2610.18835",
+      "date": "2026-10-20",
+      "tags": [
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2610.23334",
+      "title": "LAW: Unifying Language, Action, and World Modeling for Agentic Physical Intelligence",
+      "url": "papers/2610.23334/",
+      "arxivUrl": "https://arxiv.org/abs/2610.23334",
+      "date": "2026-10-19",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.23396",
+      "title": "AWAM: Active Trajectory-Conditioned View Imagination for Robust Robot Manipulation",
+      "url": "papers/2610.23396/",
+      "arxivUrl": "https://arxiv.org/abs/2610.23396",
+      "date": "2026-10-19",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "主动感知",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.23479",
+      "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+      "url": "papers/2610.23479/",
+      "arxivUrl": "https://arxiv.org/abs/2610.23479",
+      "date": "2026-10-19",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.23128",
+      "title": "SCOPE: Selective Certification of Program Edits for Embodied Heuristic Learning",
+      "url": "papers/2610.23128/",
+      "arxivUrl": "https://arxiv.org/abs/2610.23128",
+      "date": "2026-10-19",
+      "tags": [
+        "智能体与程序学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.23018",
+      "title": "VLA-Fabric: Learning Interaction for Composable Multi-Arm VLA Agents",
+      "url": "papers/2610.23018/",
+      "arxivUrl": "https://arxiv.org/abs/2610.23018",
+      "date": "2026-10-19",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.23378",
+      "title": "Look Before You Act: Bridging Active Perception and Vision-Language-Action Models via Observation-Aligned Data Adaptation",
+      "url": "papers/2610.23378/",
+      "arxivUrl": "https://arxiv.org/abs/2610.23378",
+      "date": "2026-10-19",
+      "tags": [
+        "VLA 与策略学习",
+        "主动感知"
+      ]
+    },
+    {
+      "id": "2610.22951",
+      "title": "MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models",
+      "url": "papers/2610.22951/",
+      "arxivUrl": "https://arxiv.org/abs/2610.22951",
+      "date": "2026-10-19",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.23271",
+      "title": "NestedVLA: Learning to Consolidate and Generate Skills for Vision-Language-Action Models",
+      "url": "papers/2610.23271/",
+      "arxivUrl": "https://arxiv.org/abs/2610.23271",
+      "date": "2026-10-19",
+      "tags": [
+        "VLA 与策略学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.23156",
+      "title": "ORD-WM: Learning Object-Centric Rigid Dynamics for 3D World Modeling in Robotic Manipulation",
+      "url": "papers/2610.23156/",
+      "arxivUrl": "https://arxiv.org/abs/2610.23156",
+      "date": "2026-10-19",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.23622",
+      "title": "Foundation-Model-Driven 3D Scene Graphs for Mobile Manipulation",
+      "url": "papers/2610.23622/",
+      "arxivUrl": "https://arxiv.org/abs/2610.23622",
+      "date": "2026-10-19",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.22323",
+      "title": "Mem4Act: Learning Effective Latent Memory for Long-Horizon Robotic Manipulation",
+      "url": "papers/2610.22323/",
+      "arxivUrl": "https://arxiv.org/abs/2610.22323",
+      "date": "2026-10-18",
+      "tags": [
+        "VLA 与策略学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.21686",
+      "title": "MAIA: Anticipating Interaction Anomalies in Contact-Rich Manipulation via Multimodal World Models",
+      "url": "papers/2610.21686/",
+      "arxivUrl": "https://arxiv.org/abs/2610.21686",
+      "date": "2026-10-18",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.22368",
+      "title": "Value as Memory: Online Value-Guided Post-training for General Robot Policies",
+      "url": "papers/2610.22368/",
+      "arxivUrl": "https://arxiv.org/abs/2610.22368",
+      "date": "2026-10-18",
+      "tags": [
+        "VLA 与策略学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.21922",
+      "title": "TS-WAM: Temporal Latent Actions and World-Action Coupling for Vision-Language Robot Control",
+      "url": "papers/2610.21922/",
+      "arxivUrl": "https://arxiv.org/abs/2610.21922",
+      "date": "2026-10-18",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.21915",
+      "title": "What Should Robot Policies Learn to Predict? Rethinking Supervision Targets in Vision-Language-Action Learning",
+      "url": "papers/2610.21915/",
+      "arxivUrl": "https://arxiv.org/abs/2610.21915",
+      "date": "2026-10-18",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.21429",
+      "title": "MuSTMM: Learning Sound-Triggered Mobile Manipulation across Multiple Scenes",
+      "url": "papers/2610.21429/",
+      "arxivUrl": "https://arxiv.org/abs/2610.21429",
+      "date": "2026-10-18",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.21434",
+      "title": "Policy-Aligned Predictive Verification for Adaptive VLA Action-Chunk Execution",
+      "url": "papers/2610.21434/",
+      "arxivUrl": "https://arxiv.org/abs/2610.21434",
+      "date": "2026-10-18",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.21985",
+      "title": "VeriVLA: Adaptive Test-Time Verification for Flow-Based VLAs with Latent World Models",
+      "url": "papers/2610.21985/",
+      "arxivUrl": "https://arxiv.org/abs/2610.21985",
+      "date": "2026-10-18",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.22364",
+      "title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+      "url": "papers/2610.22364/",
+      "arxivUrl": "https://arxiv.org/abs/2610.22364",
+      "date": "2026-10-18",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.21211",
+      "title": "An Agentic Framework for Proactive Robots with Procedural Assistance Memory",
+      "url": "papers/2610.21211/",
+      "arxivUrl": "https://arxiv.org/abs/2610.21211",
+      "date": "2026-10-18",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.21453",
+      "title": "CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance",
+      "url": "papers/2610.21453/",
+      "arxivUrl": "https://arxiv.org/abs/2610.21453",
+      "date": "2026-10-17",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.22178",
+      "title": "REKI: Registering Knowledge in VLAs",
+      "url": "papers/2610.22178/",
+      "arxivUrl": "https://arxiv.org/abs/2610.22178",
+      "date": "2026-10-17",
+      "tags": [
+        "VLA 与策略学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.22342",
+      "title": "Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation",
+      "url": "papers/2610.22342/",
+      "arxivUrl": "https://arxiv.org/abs/2610.22342",
+      "date": "2026-10-17",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.20750",
+      "title": "Causal Analysis of Robot Foundation Models Enables Efficiency Gains",
+      "url": "papers/2610.20750/",
+      "arxivUrl": "https://arxiv.org/abs/2610.20750",
+      "date": "2026-10-17",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.21389",
+      "title": "Fast-VLA: You Only Think Once for Robot Manipulation",
+      "url": "papers/2610.21389/",
+      "arxivUrl": "https://arxiv.org/abs/2610.21389",
+      "date": "2026-10-17",
+      "tags": [
+        "VLA 与策略学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.21306",
+      "title": "VLA-Δ: Learning Physical State Transition for Vision-Language-Action Models",
+      "url": "papers/2610.21306/",
+      "arxivUrl": "https://arxiv.org/abs/2610.21306",
+      "date": "2026-10-17",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.22146",
+      "title": "FastVLA: Task-Conditioned and Temporally Adaptive Visual Token Compression for Efficient Vision-Language-Action Models",
+      "url": "papers/2610.22146/",
+      "arxivUrl": "https://arxiv.org/abs/2610.22146",
+      "date": "2026-10-17",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.21792",
+      "title": "Trajectory-based Diffusion from One-shot Human Video for Generalizable Manipulation",
+      "url": "papers/2610.21792/",
+      "arxivUrl": "https://arxiv.org/abs/2610.21792",
+      "date": "2026-10-17",
+      "tags": [
+        "其他具身方向"
+      ]
+    },
+    {
+      "id": "2610.19600",
+      "title": "Cracking Mobile Manipulation: From Failure Diagnosis to Agentic Robot System",
+      "url": "papers/2610.19600/",
+      "arxivUrl": "https://arxiv.org/abs/2610.19600",
+      "date": "2026-10-16",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.15572",
+      "title": "Look Before You Move: Agent-Interface-Aligned Supervision for Open-World Mobile Manipulation",
+      "url": "papers/2610.15572/",
+      "arxivUrl": "https://arxiv.org/abs/2610.15572",
+      "date": "2026-10-16",
+      "tags": [
+        "智能体与程序学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.20607",
+      "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
+      "url": "papers/2610.20607/",
+      "arxivUrl": "https://arxiv.org/abs/2610.20607",
+      "date": "2026-10-16",
+      "tags": [
+        "其他具身方向"
+      ]
+    },
+    {
+      "id": "2610.20429",
+      "title": "When Do Discrete Actions Make Good Continuous Controllers?",
+      "url": "papers/2610.20429/",
+      "arxivUrl": "https://arxiv.org/abs/2610.20429",
+      "date": "2026-10-16",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.19765",
+      "title": "Refine Actions If Needed: Adaptive Action Chunk Refinement for Robot Manipulation",
+      "url": "papers/2610.19765/",
+      "arxivUrl": "https://arxiv.org/abs/2610.19765",
+      "date": "2026-10-16",
+      "tags": [
+        "其他具身方向"
+      ]
+    },
+    {
+      "id": "2610.17977",
+      "title": "ReEnvision: Future-Guided Selective Action Repair for Long-Horizon Manipulation",
+      "url": "papers/2610.17977/",
+      "arxivUrl": "https://arxiv.org/abs/2610.17977",
+      "date": "2026-10-16",
+      "tags": [
+        "其他具身方向"
+      ]
+    },
+    {
+      "id": "2610.13212",
+      "title": "Beyond Actions: Learning Future Operation Targets for Vision-Language-Action Models",
+      "url": "papers/2610.13212/",
+      "arxivUrl": "https://arxiv.org/abs/2610.13212",
+      "date": "2026-10-16",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.17748",
+      "title": "I3L: Iterative Interactive Imitation Learning for Whole-Body Mobile Manipulation",
+      "url": "papers/2610.17748/",
+      "arxivUrl": "https://arxiv.org/abs/2610.17748",
+      "date": "2026-10-16",
+      "tags": [
+        "其他具身方向"
+      ]
+    },
+    {
+      "id": "2610.18826",
+      "title": "WorldOracle: Benchmarking Action-Conditioned World Models against Real-World Executions",
+      "url": "papers/2610.18826/",
+      "arxivUrl": "https://arxiv.org/abs/2610.18826",
+      "date": "2026-10-16",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.18774",
+      "title": "GreenWAM: A World Foundation Model for Robotics",
+      "url": "papers/2610.18774/",
+      "arxivUrl": "https://arxiv.org/abs/2610.18774",
+      "date": "2026-10-16",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.16641",
+      "title": "What Limits Cross-Task Generalization in World Action Models?",
+      "url": "papers/2610.16641/",
+      "arxivUrl": "https://arxiv.org/abs/2610.16641",
+      "date": "2026-10-16",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.17462",
+      "title": "Act4R: Action-Conditioned 4D Reconstruction for Kinematics-Free Control",
+      "url": "papers/2610.17462/",
+      "arxivUrl": "https://arxiv.org/abs/2610.17462",
+      "date": "2026-10-16",
+      "tags": [
+        "其他具身方向"
+      ]
+    },
+    {
+      "id": "2610.18874",
+      "title": "ChunkAct: Action Chunking for Agentic Robotics",
+      "url": "papers/2610.18874/",
+      "arxivUrl": "https://arxiv.org/abs/2610.18874",
+      "date": "2026-10-16",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.18792",
+      "title": "SEAR: Self-Evolving Agentic Robotics",
+      "url": "papers/2610.18792/",
+      "arxivUrl": "https://arxiv.org/abs/2610.18792",
+      "date": "2026-10-16",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2610.18873",
+      "title": "LoopWAM: Closed-Loop Generalist Policy Improvement from Deployment Rollouts",
+      "url": "papers/2610.18873/",
+      "arxivUrl": "https://arxiv.org/abs/2610.18873",
+      "date": "2026-10-16",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.13943",
+      "title": "Noise Space Learning for VLA Adaptation",
+      "url": "papers/2610.13943/",
+      "arxivUrl": "https://arxiv.org/abs/2610.13943",
+      "date": "2026-10-16",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.14351",
+      "title": "Learning Transferable World-Action Models from Task-Paired Human Videos",
+      "url": "papers/2610.14351/",
+      "arxivUrl": "https://arxiv.org/abs/2610.14351",
+      "date": "2026-10-16",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.17089",
+      "title": "Interactive Navigation Beyond Reachability: Benchmark and Agentic Framework",
+      "url": "papers/2610.17089/",
+      "arxivUrl": "https://arxiv.org/abs/2610.17089",
+      "date": "2026-10-16",
+      "tags": [
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2610.16558",
+      "title": "G²WAM: World Action Models for Efficient and Geometry Grounded Image-Goal Navigation",
+      "url": "papers/2610.16558/",
+      "arxivUrl": "https://arxiv.org/abs/2610.16558",
+      "date": "2026-10-16",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.15625",
+      "title": "1Step-WAM: Your World Action Model but Faster using 1-Step Action Generation",
+      "url": "papers/2610.15625/",
+      "arxivUrl": "https://arxiv.org/abs/2610.15625",
+      "date": "2026-10-16",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.03476",
+      "title": "MobiAgent: Dual-Loop Recursive Policy Self-Improvement for Long-Horizon Mobile Manipulation",
+      "url": "papers/2610.03476/",
+      "arxivUrl": "https://arxiv.org/abs/2610.03476",
+      "date": "2026-10-09",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.06999",
+      "title": "ProactiveVLA: Augmenting Embodied Memory through Proactive Environment Exploration",
+      "url": "papers/2610.06999/",
+      "arxivUrl": "https://arxiv.org/abs/2610.06999",
+      "date": "2026-10-09",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.05418",
+      "title": "EvoMem-VLA: State-Evolution Memory for Long-Horizon Robot Manipulation",
+      "url": "papers/2610.05418/",
+      "arxivUrl": "https://arxiv.org/abs/2610.05418",
+      "date": "2026-10-09",
+      "tags": [
+        "VLA 与策略学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.12099",
+      "title": "Unitas: A 3D-Native World Action Model for Embodied Manipulation",
+      "url": "papers/2610.12099/",
+      "arxivUrl": "https://arxiv.org/abs/2610.12099",
+      "date": "2026-10-09",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.06921",
+      "title": "Does a Learned Corrector Beat a Simple Retreat? Evidence from a Frozen VLA",
+      "url": "papers/2610.06921/",
+      "arxivUrl": "https://arxiv.org/abs/2610.06921",
+      "date": "2026-10-09",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.11248",
+      "title": "SimVLA: Zero-Shot Sim-to-Real VLA Learning for Mobile Manipulation",
+      "url": "papers/2610.11248/",
+      "arxivUrl": "https://arxiv.org/abs/2610.11248",
+      "date": "2026-10-09",
+      "tags": [
+        "VLA 与策略学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.07511",
+      "title": "MobileVISTA: Generative Data Augmentation for Pose Generalization in Mobile Manipulation",
+      "url": "papers/2610.07511/",
+      "arxivUrl": "https://arxiv.org/abs/2610.07511",
+      "date": "2026-10-09",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2610.08220",
+      "title": "VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation",
+      "url": "papers/2610.08220/",
+      "arxivUrl": "https://arxiv.org/abs/2610.08220",
+      "date": "2026-10-09",
+      "tags": [
+        "VLA 与策略学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2610.09427",
+      "title": "Event-Aligned Visual Action Reasoning for World Action Models",
+      "url": "papers/2610.09427/",
+      "arxivUrl": "https://arxiv.org/abs/2610.09427",
+      "date": "2026-10-09",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.10528",
+      "title": "Long-WAM: Scaling the Context of World-Action Models",
+      "url": "papers/2610.10528/",
+      "arxivUrl": "https://arxiv.org/abs/2610.10528",
+      "date": "2026-10-09",
+      "tags": [
+        "世界模型与 WAM",
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2610.12457",
+      "title": "SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation",
+      "url": "papers/2610.12457/",
+      "arxivUrl": "https://arxiv.org/abs/2610.12457",
+      "date": "2026-10-09",
+      "tags": [
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2610.06955",
+      "title": "ROMA: LLM System for Real-World Object-Centric Multi-Sensory Active Perception",
+      "url": "papers/2610.06955/",
+      "arxivUrl": "https://arxiv.org/abs/2610.06955",
+      "date": "2026-10-09",
+      "tags": [
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2610.09228",
+      "title": "Co-Evolving Robot Orchestrators and Policies through Deployment",
+      "url": "papers/2610.09228/",
+      "arxivUrl": "https://arxiv.org/abs/2610.09228",
+      "date": "2026-10-09",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2610.05414",
+      "title": "RMMBench: A Comprehensive Benchmark for Robotic Mobile Manipulation",
+      "url": "papers/2610.05414/",
+      "arxivUrl": "https://arxiv.org/abs/2610.05414",
+      "date": "2026-10-09",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.12431",
+      "title": "Control-Ready Uncertainty for Trajectory Diffusion",
+      "url": "papers/2610.12431/",
+      "arxivUrl": "https://arxiv.org/abs/2610.12431",
+      "date": "2026-10-09",
+      "tags": [
+        "其他具身方向"
+      ]
+    },
+    {
+      "id": "2610.10538",
+      "title": "Never Look Back",
+      "url": "papers/2610.10538/",
+      "arxivUrl": "https://arxiv.org/abs/2610.10538",
+      "date": "2026-10-09",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2610.12407",
+      "title": "LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC",
+      "url": "papers/2610.12407/",
+      "arxivUrl": "https://arxiv.org/abs/2610.12407",
+      "date": "2026-10-09",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.12468",
+      "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+      "url": "papers/2610.12468/",
+      "arxivUrl": "https://arxiv.org/abs/2610.12468",
+      "date": "2026-10-09",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.09734",
+      "title": "ΔWAM: Distilling Action Tangent Fields into World Action Models",
+      "url": "papers/2610.09734/",
+      "arxivUrl": "https://arxiv.org/abs/2610.09734",
+      "date": "2026-10-09",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2610.12194",
+      "title": "MiniWAM: Learning Compact Future Targets for Efficient World-Action Modeling",
+      "url": "papers/2610.12194/",
+      "arxivUrl": "https://arxiv.org/abs/2610.12194",
+      "date": "2026-10-09",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "source:8827aad4505e69ef98eb5a35",
+      "title": "4. Gemini Robotics 2.5：官方产品技术发布",
+      "kind": "announcement",
+      "url": "daily/2026-11-13/#source-8827aad4505e69ef98eb5a35",
+      "arxivUrl": null,
+      "sourceUrl": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "date": "2026-11-13",
+      "tags": [
+        "官方产品发布"
+      ]
+    }
+  ]
+}

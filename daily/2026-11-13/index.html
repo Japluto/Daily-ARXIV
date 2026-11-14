@@ -47,6 +47,8 @@
     
       <link rel="stylesheet" href="../../stylesheets/extra.css">
     
+      <link rel="stylesheet" href="../../stylesheets/reading-tracker.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -316,6 +318,25 @@
         </a>
       </li>
     
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../reading-list/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  阅读清单
+
+      </a>
+    </li>
   
 
       
@@ -9528,6 +9549,33 @@
   
   
     <li class="md-nav__item">
+      <a href="../../reading-list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    阅读清单
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../about/" class="md-nav__link">
         
   
@@ -9633,19 +9681,19 @@
 
 <h2 id="_1">精选论文<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <div class="paper-list">
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2611.10894">
 <div class="card-kicker"><span>精选 01 · Zero-Shot VLA Adaptation with Retrieved Guidance（RAGu）</span><span>2026-11-07 首发 · 近7天补收</span></div>
 <h3><a href="../../papers/2611.10894/">Zero-Shot VLA Adaptation with Retrieved Guidance（RAGu）</a></h3>
 <p></p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a></div><a class="read-link" href="../../papers/2611.10894/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2611.12983">
 <div class="card-kicker"><span>精选 02 · CAFE</span><span>2026-11-08 首发 · 近7天补收</span></div>
 <h3><a href="../../papers/2611.12983/">CAFE: Closed-Loop Autonomous Task Formulation and Execution without Instance-Specific Instructions</a></h3>
 <p></p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/agents/">智能体与程序学习</a><a class="pill" href="../../topics/memory/">记忆与技能</a><a class="pill" href="../../topics/mobile-manipulation/">移动操作</a></div><a class="read-link" href="../../papers/2611.12983/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2611.11688">
 <div class="card-kicker"><span>精选 03 · Streaming Failure Forecasting</span><span>2026-11-08 首发 · 近7天补收</span></div>
 <h3><a href="../../papers/2611.11688/">Streaming Failure Forecasting: VLA Failure Monitors That Keep Learning After Deployment</a></h3>
 <p></p>
@@ -9661,7 +9709,7 @@
 <p class="source-note"></p>
 
 <h2 id="_3">官方产品发布<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<div class="source-report"><h2>4. Gemini Robotics 2.5：官方产品技术发布</h2><p><b>日期/来源：</b>2026-11-10；近7天漏选补收｜<a href="https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/" rel="noopener noreferrer" target="_blank">Google DeepMind官方介绍</a></p><p><b>分类：</b>大系统/官方产品发布｜VLA＋Agent｜低层策略＋工作流推理｜桌面/工业操作；非移动操作评测。</p><p><b>贡献：</b>发布新一代跨机器人VLA，并结合Gemini Robotics ER进行多步骤工作流追踪。</p><p><b>实验：</b>官方称评估超过200项操作任务；图示关工具箱盖成功率从前代0%至93%、将杯子从挂钩取下并放桌面由29%至75%。Apollo 2在Mercedes-Benz生产线试点分拣汽车零件，官方报告96%成功率。</p><p><b>局限：</b>这是一手官方公告而非可完整复现的技术论文；未充分披露96%的样本量、成功率分母、人工介入、训练量及严格同预算基线，不能与学术基准直接排名。公告使用人形机器人不等于评测了移动底座＋机械臂协同。<b>为什么读：</b>观察大规模产品系统从桌面灵巧操作延伸至真实工作流程的进展，但将其视为待独立核实的厂商结果。</p></div>
+<div class="source-report" id="source-8827aad4505e69ef98eb5a35" data-reading-detail="source:8827aad4505e69ef98eb5a35"><h2>4. Gemini Robotics 2.5：官方产品技术发布</h2><p><b>日期/来源：</b>2026-11-10；近7天漏选补收｜<a href="https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/" rel="noopener noreferrer" target="_blank">Google DeepMind官方介绍</a></p><p><b>分类：</b>大系统/官方产品发布｜VLA＋Agent｜低层策略＋工作流推理｜桌面/工业操作；非移动操作评测。</p><p><b>贡献：</b>发布新一代跨机器人VLA，并结合Gemini Robotics ER进行多步骤工作流追踪。</p><p><b>实验：</b>官方称评估超过200项操作任务；图示关工具箱盖成功率从前代0%至93%、将杯子从挂钩取下并放桌面由29%至75%。Apollo 2在Mercedes-Benz生产线试点分拣汽车零件，官方报告96%成功率。</p><p><b>局限：</b>这是一手官方公告而非可完整复现的技术论文；未充分披露96%的样本量、成功率分母、人工介入、训练量及严格同预算基线，不能与学术基准直接排名。公告使用人形机器人不等于评测了移动底座＋机械臂协同。<b>为什么读：</b>观察大规模产品系统从桌面灵巧操作延伸至真实工作流程的进展，但将其视为待独立核实的厂商结果。</p></div>
 
 
 
@@ -9763,6 +9811,10 @@
     
     
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../assets/javascripts/reading-state.js"></script>
+      
+        <script src="../../assets/javascripts/reading-tracker.js"></script>
       
     
   </body>

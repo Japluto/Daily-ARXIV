@@ -1,0 +1,23 @@
+.paper-card { position: relative; }
+.paper-card[data-paper-id] > .reading-controls { float: right; position: relative; z-index: 1; margin: 0 0 .35rem .5rem; }
+.reading-controls { display: inline-flex; gap: .15rem; }
+.reading-toggle { width: 2rem; height: 2rem; padding: .38rem; border-radius: .35rem; color: var(--md-default-fg-color--light); cursor: pointer; background: transparent; }
+.reading-toggle:hover,.reading-toggle:focus-visible { background: var(--md-default-fg-color--lightest); outline: 2px solid var(--md-accent-fg-color); }
+.reading-toggle svg { width: 100%; height: 100%; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.reading-toggle .rt-check { visibility: hidden; }
+.reading-toggle[data-reading-field="read"][aria-pressed="true"] { color: #2eaa69; }
+.reading-toggle[aria-pressed="true"] .rt-check { visibility: visible; }
+.reading-toggle[data-reading-field="deepRead"][aria-pressed="true"] { color: #a477ee; }
+.reading-toggle[data-reading-field="deepRead"][aria-pressed="true"] svg { fill: currentColor; }
+.reading-toggle:disabled { opacity: .45; cursor: not-allowed; }
+.reading-filter,.reading-transfer { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; margin: .65rem 0; }
+.reading-filter label { display: inline-flex; gap: .3rem; align-items: center; cursor: pointer; min-height: 2rem; }
+.reading-filter input { accent-color: var(--md-accent-fg-color); }
+.reading-count { color: var(--md-default-fg-color--light); font-size: .75rem; }
+.reading-status { color: var(--md-accent-fg-color); overflow-wrap: anywhere; }
+.reading-action,.reading-transfer button { border: 1px solid var(--md-default-fg-color--lightest); padding: .4rem .65rem; border-radius: .3rem; cursor: pointer; color: var(--md-default-fg-color); background: var(--md-code-bg-color); }
+.reading-conflict { display: block; margin: .7rem 0; overflow-wrap: anywhere; }
+.reading-conflict select { display: block; padding: .4rem; background: var(--md-code-bg-color); color: var(--md-default-fg-color); }
+[data-reading-preview] { padding: .7rem; border-left: 3px solid var(--md-accent-fg-color); overflow-wrap: anywhere; }
+.paper-card[hidden],.reading-empty[hidden],[data-reading-preview][hidden] { display: none !important; }
+[data-reading-all] .paper-card h3 { overflow-wrap: anywhere; }

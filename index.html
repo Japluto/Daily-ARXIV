@@ -45,6 +45,8 @@
     
       <link rel="stylesheet" href="stylesheets/extra.css">
     
+      <link rel="stylesheet" href="stylesheets/reading-tracker.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -312,6 +314,25 @@
         </a>
       </li>
     
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="reading-list/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  阅读清单
+
+      </a>
+    </li>
   
 
       
@@ -9514,6 +9535,33 @@
   
   
     <li class="md-nav__item">
+      <a href="reading-list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    阅读清单
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="about/" class="md-nav__link">
         
   
@@ -9641,19 +9689,19 @@
 <h2 id="_2">本期先读<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <p>沿用日报中的阅读顺序，先看排名最前的三篇。</p>
 <div class="paper-list">
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2611.16728">
 <div class="card-kicker"><span>精选 01 · EgoX</span><span>2026-11-12 首发 · 近7天补收</span></div>
 <h3><a href="papers/2611.16728/">EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming</a></h3>
 <p>真移动操作和桌面操作共用一套分析，能具体观察跨具身数据与辅助预测各自作用。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="topics/vla/">VLA 与策略学习</a><a class="pill" href="topics/world-models/">世界模型与 WAM</a><a class="pill" href="topics/mobile-manipulation/">移动操作</a></div><a class="read-link" href="papers/2611.16728/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2611.16872">
 <div class="card-kicker"><span>精选 02 · ACE-CaP-0</span><span>2026-11-12 首发 · 近7天补收</span></div>
 <h3><a href="papers/2611.16872/">ACE-CaP-0: Real-World Code-as-Policies in the Era of Experience</a></h3>
 <p>清楚展示了 agent 写代码、真实反馈与按需仿真的分工，以及仿真传感差异如何使迁移失败。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="topics/agents/">智能体与程序学习</a><a class="pill" href="topics/memory/">记忆与技能</a></div><a class="read-link" href="papers/2611.16872/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2611.16246">
 <div class="card-kicker"><span>精选 03 · What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation</span><span>2026-11-12 首发 · 近7天补收</span></div>
 <h3><a href="papers/2611.16246/">What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation</a></h3>
 <p>同时研究导航策略、停止判断与 agent 经验复用，且把测试时是否继续调用 LLM 说清楚。</p>
@@ -9749,6 +9797,10 @@
     
     
       <script src="assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="assets/javascripts/reading-state.js"></script>
+      
+        <script src="assets/javascripts/reading-tracker.js"></script>
       
     
   </body>

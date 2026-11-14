@@ -47,6 +47,8 @@
     
       <link rel="stylesheet" href="../../stylesheets/extra.css">
     
+      <link rel="stylesheet" href="../../stylesheets/reading-tracker.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -316,6 +318,25 @@
         </a>
       </li>
     
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../reading-list/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  阅读清单
+
+      </a>
+    </li>
   
 
       
@@ -9528,6 +9549,33 @@
   
   
     <li class="md-nav__item">
+      <a href="../../reading-list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    阅读清单
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../about/" class="md-nav__link">
         
   
@@ -9622,61 +9670,61 @@
 
 <h2 id="_1">精选论文<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <div class="paper-list">
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.28626">
 <div class="card-kicker"><span>精选 01 · UniWALM</span><span>2026-10-20 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.28626/">UniWALM: Unified World Action Language Model for Embodied Robot Control</a></h3>
 <p>在单一 mixture-of-transformers 中同步扩散生成动作、语言和视频表征；语言同时表示下一子任务与文本记忆，并在下一控制步重新输入，不依赖外部规划器或记忆库。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a><a class="pill" href="../../topics/world-models/">世界模型与 WAM</a><a class="pill" href="../../topics/agents/">智能体与程序学习</a><a class="pill" href="../../topics/memory/">记忆与技能</a></div><a class="read-link" href="../../papers/2610.28626/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.28613">
 <div class="card-kicker"><span>精选 02 · Physical Canvas</span><span>2026-10-20 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.28613/">Physical Canvas: A Vision-Tactile World Model for Robot Policy Evaluation and Learning</a></h3>
 <p>把多视角 RGB、触觉图像、marker displacement、任务状态和动作统一渲染到视觉 canvas，由共享视频 VAE/生成骨干预测，并用场景、跨模态和结果一致性 reward model 约束世界模型。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a><a class="pill" href="../../topics/world-models/">世界模型与 WAM</a></div><a class="read-link" href="../../papers/2610.28613/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.28122">
 <div class="card-kicker"><span>精选 03 · De-Diffusing WAMs</span><span>2026-10-20 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.28122/">De-Diffusing WAMs: Action-Sufficient Direct Prediction for Robot Control</a></h3>
 <p>不再用像素或 latent 重建误差单独蒸馏未来，而让学生预测的未来通过冻结动作专家，以最终动作误差监督未来预测器；保留显式 future→action 级联，但两条流均变为单步。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/world-models/">世界模型与 WAM</a></div><a class="read-link" href="../../papers/2610.28122/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.28019">
 <div class="card-kicker"><span>精选 04 · PACT-VLA</span><span>2026-10-20 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.28019/">PACT-VLA: Speculative Action-Chunk Verification with Pre-Commit Observations</a></h3>
 <p>把异步推理造成的等待时间转化为验证窗口：旧观测生成多个 action chunk，再用提交前的新观测和冻结 VLA 的 FlowRes 选择完整 chunk，不额外训练 verifier。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a></div><a class="read-link" href="../../papers/2610.28019/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.28589">
 <div class="card-kicker"><span>精选 05 · AgenticRoboRL</span><span>2026-10-20 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.28589/">AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics</a></h3>
 <p>将 coding-agent 的 SFT+多轮 RL 后训练移植到机器人 planner，并用 harness adapter 兼容“调用 VLA 技能”和“生成控制代码”两种执行接口。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a><a class="pill" href="../../topics/agents/">智能体与程序学习</a><a class="pill" href="../../topics/memory/">记忆与技能</a></div><a class="read-link" href="../../papers/2610.28589/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.27917">
 <div class="card-kicker"><span>精选 06 · EventSync</span><span>2026-10-20 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.27917/">EventSync: Event-Driven Memory Updates for History-Dependent Manipulation</a></h3>
 <p>用轻量 Event Monitor 融合视觉和末端轨迹，只在获得子任务完成证据后更新 completed-subgoal memory 并触发下一次高层推理。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a><a class="pill" href="../../topics/agents/">智能体与程序学习</a><a class="pill" href="../../topics/memory/">记忆与技能</a></div><a class="read-link" href="../../papers/2610.27917/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.27613">
 <div class="card-kicker"><span>精选 07 · Tactile-ETA</span><span>2026-10-20 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.27613/">Tactile-ETA: Embodied Task Agents Can Perform Fine Manipulation through Tactile In-Context Learning</a></h3>
 <p>将专家动作与视觉、双侧触觉序列对齐，作为 in-context demonstration 交给冻结的 embodied task agent，通过通用机器人工具完成精细操作，无需任务专属参数更新。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/agents/">智能体与程序学习</a><a class="pill" href="../../topics/memory/">记忆与技能</a></div><a class="read-link" href="../../papers/2610.27613/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.28166">
 <div class="card-kicker"><span>精选 08 · GPL</span><span>2026-10-20 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.28166/">Reasoning as a Distribution: Generative Plan Latents for VLA Models</a></h3>
 <p>将中间 reasoning state 表示成低维条件计划分布，而不是单个向量，使多个有效抓取、目标或路径能够被采样、定向选择，并由部署结果重新加权。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a><a class="pill" href="../../topics/mobile-manipulation/">移动操作</a></div><a class="read-link" href="../../papers/2610.28166/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.27861">
 <div class="card-kicker"><span>精选 09 · RoboCasa-Shift</span><span>2026-10-20 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.27861/">RoboCasa-Shift: Stage-Aware Robustness Evaluation of VLAs in Long-Horizon Household Manipulation</a></h3>
 <p>为 clean/perturbed rollout 固定场景、初始状态和策略随机种子，再用 simulator-state predicate 跟踪首个未完成子目标，把结果翻转和失败深度从总成功率中拆出来。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a><a class="pill" href="../../topics/mobile-manipulation/">移动操作</a></div><a class="read-link" href="../../papers/2610.27861/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2610.28109">
 <div class="card-kicker"><span>精选 10 · FIT-MAC</span><span>2026-10-20 首发 · 日报收录</span></div>
 <h3><a href="../../papers/2610.28109/">FIT-MAC: A Closed-Loop Multi-Agent Framework for Robust VLAs</a></h3>
 <p>在冻结 VLA 外增加 Planner、Grounder、Verifier 和 Correction agents，将目标绑定错误与局部抓取/放置失败分开诊断，并分别路由到重新绑定或有界恢复。</p>
@@ -9793,6 +9841,10 @@
     
     
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../assets/javascripts/reading-state.js"></script>
+      
+        <script src="../../assets/javascripts/reading-tracker.js"></script>
       
     
   </body>

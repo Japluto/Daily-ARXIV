@@ -47,6 +47,8 @@
     
       <link rel="stylesheet" href="../../stylesheets/extra.css">
     
+      <link rel="stylesheet" href="../../stylesheets/reading-tracker.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -316,6 +318,25 @@
         </a>
       </li>
     
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../reading-list/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  阅读清单
+
+      </a>
+    </li>
   
 
       
@@ -9528,6 +9549,33 @@
   
   
     <li class="md-nav__item">
+      <a href="../../reading-list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    阅读清单
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../about/" class="md-nav__link">
         
   
@@ -9622,37 +9670,37 @@
 
 <h2 id="_1">精选论文<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <div class="paper-list">
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2611.08039">
 <div class="card-kicker"><span>精选 01 · HITCH</span><span>2026-11-05 首发 · 近7天补收</span></div>
 <h3><a href="../../papers/2611.08039/">HITCH: A Generalist Humanoid Policy via Vision-Language Planning and Whole-Body Tracking</a></h3>
 <p>亮点不是新的低层动作表示，而是把 VLM 可调用接口压缩成少量可验证的全身命令，并展示高层少样本适配与强低层执行器的乘法关系。对“agentic embodied system 如何划分接口”很有参考价值；但“generalist”在真实世界的证据仍有限。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/agents/">智能体与程序学习</a><a class="pill" href="../../topics/memory/">记忆与技能</a><a class="pill" href="../../topics/mobile-manipulation/">移动操作</a></div><a class="read-link" href="../../papers/2611.08039/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2611.08373">
 <div class="card-kicker"><span>精选 02 · SLA</span><span>2026-11-05 首发 · 近7天补收</span></div>
 <h3><a href="../../papers/2611.08373/">SLA: Spatial Latent Alignment for Vision-Language-Action Models</a></h3>
 <p>它把 3D 先验放在表征蒸馏而非推理接口，结果覆盖多套仿真与真实桌面基准，证据比较完整。值得重点看的是“昂贵空间教师训练、轻量部署”的范式；局限是计算预算很大，且真实指标容易被误读成整任务成功率。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a></div><a class="read-link" href="../../papers/2611.08373/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2611.07532">
 <div class="card-kicker"><span>精选 03 · From Semantics to Contact</span><span>2026-11-05 首发 · 近7天补收</span></div>
 <h3><a href="../../papers/2611.07532/">From Semantics to Contact: Language-Guided Residual Reinforcement Learning for Contact-Rich Manipulation</a></h3>
 <p>比“VLM 直接出动作”更务实：语义视觉只负责粗定位，接触阶段交给专门控制器。新意在阶段分工与 object-centric augmentation 的组合，而不是通用 VLA；真实实验扎实，但需要把人类介入成本算进系统代价。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/agents/">智能体与程序学习</a><a class="pill" href="../../topics/memory/">记忆与技能</a></div><a class="read-link" href="../../papers/2611.07532/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2611.08458">
 <div class="card-kicker"><span>精选 04 · Latent RL Priors for Data-Efficient Dexterous Manipulation</span><span>2026-11-05 首发 · 近7天补收</span></div>
 <h3><a href="../../papers/2611.08458/">Latent RL Priors for Data-Efficient Dexterous Manipulation</a></h3>
 <p>它把“动作先验”做成可复用生成解码器，并且跨任务、跨两只机械臂共享，方法上比单纯扩充 VLA 数据更有启发。应把它理解为把成本前置到 privileged RL，而不是无成本的数据效率提升。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a></div><a class="read-link" href="../../papers/2611.08458/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2611.08449">
 <div class="card-kicker"><span>精选 05 · VFlash</span><span>2026-11-05 首发 · 近7天补收</span></div>
 <h3><a href="../../papers/2611.08449/">VFlash: Fast Structured Visual Planning for Robot Manipulation</a></h3>
 <p>这是少见的“计划表示解码效率”工作，既有推理速度也有下游成功率证据。真正值得借鉴的是结构化并行解码，而不是把它泛化为完整 world model 的能力提升。</p>
 <div class="card-bottom"><div class="pill-row"><a class="pill" href="../../topics/vla/">VLA 与策略学习</a><a class="pill" href="../../topics/world-models/">世界模型与 WAM</a></div><a class="read-link" href="../../papers/2611.08449/">阅读笔记 &rarr;</a></div>
 </article>
-<article class="paper-card">
+<article class="paper-card" data-paper-id="2611.07850">
 <div class="card-kicker"><span>精选 06 · RoboImagine</span><span>2026-11-05 首发 · 近7天补收</span></div>
 <h3><a href="../../papers/2611.07850/">RoboImagine: Improving Autoregressive Robot World Models with Post-Training</a></h3>
 <p>它给 robot world model 引入了相对偏好式后训练，并显著降低了比 MCTS 更昂贵的候选搜索成本；但现阶段应归类为生成质量改进，不能据此声称操作性能提高。</p>
@@ -9769,6 +9817,10 @@
     
     
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../assets/javascripts/reading-state.js"></script>
+      
+        <script src="../../assets/javascripts/reading-tracker.js"></script>
       
     
   </body>
