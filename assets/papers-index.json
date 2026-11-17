@@ -2,6 +2,127 @@
   "schemaVersion": 1,
   "papers": [
     {
+      "id": "2611.17442",
+      "title": "Racing the Clock: Teaching VLNs Budget-Conditioned Object Search",
+      "url": "papers/2611.17442/",
+      "arxivUrl": "https://arxiv.org/abs/2611.17442",
+      "date": "2026-11-17",
+      "tags": [
+        "VLA 与策略学习",
+        "VLN · 视觉语言导航"
+      ]
+    },
+    {
+      "id": "2611.18176",
+      "title": "ESI: An Embodied Self-Improvement Flywheel for LLM-VLA Agents",
+      "url": "papers/2611.18176/",
+      "arxivUrl": "https://arxiv.org/abs/2611.18176",
+      "date": "2026-11-17",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.17598",
+      "title": "X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot",
+      "url": "papers/2611.17598/",
+      "arxivUrl": "https://arxiv.org/abs/2611.17598",
+      "date": "2026-11-17",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能",
+        "VLN · 视觉语言导航"
+      ]
+    },
+    {
+      "id": "2611.17626",
+      "title": "Joint World Action Models through Differentiable Trajectory Optimization",
+      "url": "papers/2611.17626/",
+      "arxivUrl": "https://arxiv.org/abs/2611.17626",
+      "date": "2026-11-17",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.14834",
+      "title": "Learning Low-Latency Action Verification for Frozen Vision-Language-Action Models",
+      "url": "papers/2611.14834/",
+      "arxivUrl": "https://arxiv.org/abs/2611.14834",
+      "date": "2026-11-16",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.17110",
+      "title": "SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models",
+      "url": "papers/2611.17110/",
+      "arxivUrl": "https://arxiv.org/abs/2611.17110",
+      "date": "2026-11-16",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.15974",
+      "title": "Video-Action Models for Data-Efficient Industrial Manipulation",
+      "url": "papers/2611.15974/",
+      "arxivUrl": "https://arxiv.org/abs/2611.15974",
+      "date": "2026-11-16",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.16439",
+      "title": "HALO: Human-Aligned Data Collection for WhoLe-body MObile Manipulation",
+      "url": "papers/2611.16439/",
+      "arxivUrl": "https://arxiv.org/abs/2611.16439",
+      "date": "2026-11-15",
+      "tags": [
+        "VLA 与策略学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.15937",
+      "title": "MOSAIC: Modular Obstacle and Spatial-Aware Framework for Manipulation In Cluttered Scenes",
+      "url": "papers/2611.15937/",
+      "arxivUrl": "https://arxiv.org/abs/2611.15937",
+      "date": "2026-11-15",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.15589",
+      "title": "EMS-Nav: Embodied Multi-Scale Navigation",
+      "url": "papers/2611.15589/",
+      "arxivUrl": "https://arxiv.org/abs/2611.15589",
+      "date": "2026-11-15",
+      "tags": [
+        "智能体与程序学习",
+        "VLN · 视觉语言导航"
+      ]
+    },
+    {
+      "id": "2611.17330",
+      "title": "ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation",
+      "url": "papers/2611.17330/",
+      "arxivUrl": "https://arxiv.org/abs/2611.17330",
+      "date": "2026-11-15",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "VLN · 视觉语言导航"
+      ]
+    },
+    {
       "id": "2611.16728",
       "title": "EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming",
       "url": "papers/2611.16728/",
