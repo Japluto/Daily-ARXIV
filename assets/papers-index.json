@@ -2,6 +2,122 @@
   "schemaVersion": 1,
   "papers": [
     {
+      "id": "2611.22584",
+      "title": "InteractVLA: Turning VLAs into Interactive Tools for Agentic Robotic Manipulation",
+      "url": "papers/2611.22584/",
+      "arxivUrl": "https://arxiv.org/abs/2611.22584",
+      "date": "2026-11-19",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.22883",
+      "title": "Fly as Instructed: Refining World-Action Policies for UAV Vision-Language Navigation",
+      "url": "papers/2611.22883/",
+      "arxivUrl": "https://arxiv.org/abs/2611.22883",
+      "date": "2026-11-19",
+      "tags": [
+        "世界模型与 WAM",
+        "VLN · 视觉语言导航"
+      ]
+    },
+    {
+      "id": "2611.22388",
+      "title": "Hidden Variables Behind Real-Robot Data Quality: Lessons from Hundreds of Thousands of Hours",
+      "url": "papers/2611.22388/",
+      "arxivUrl": "https://arxiv.org/abs/2611.22388",
+      "date": "2026-11-19",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.22666",
+      "title": "VSpark: Speculative Decoding for Autoregressive Vision-Language-Action Models",
+      "url": "papers/2611.22666/",
+      "arxivUrl": "https://arxiv.org/abs/2611.22666",
+      "date": "2026-11-19",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.21198",
+      "title": "Cooperative Mobile Manipulation using Learned Dynamical Systems",
+      "url": "papers/2611.21198/",
+      "arxivUrl": "https://arxiv.org/abs/2611.21198",
+      "date": "2026-11-19",
+      "tags": [
+        "VLA 与策略学习",
+        "记忆与技能",
+        "VLN · 视觉语言导航"
+      ]
+    },
+    {
+      "id": "2611.21607",
+      "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+      "url": "papers/2611.21607/",
+      "arxivUrl": "https://arxiv.org/abs/2611.21607",
+      "date": "2026-11-18",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.21099",
+      "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
+      "url": "papers/2611.21099/",
+      "arxivUrl": "https://arxiv.org/abs/2611.21099",
+      "date": "2026-11-18",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.21057",
+      "title": "WiTac: Wrist-Informed Tactile Representations for Contact-Rich Manipulation",
+      "url": "papers/2611.21057/",
+      "arxivUrl": "https://arxiv.org/abs/2611.21057",
+      "date": "2026-11-18",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.20718",
+      "title": "TaF-Foundation: Wrench-Grounded Cross-Sensor Tactile Representations",
+      "url": "papers/2611.20718/",
+      "arxivUrl": "https://arxiv.org/abs/2611.20718",
+      "date": "2026-11-18",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.20719",
+      "title": "ACiT: Proprioceptive-Prior Action Chunking with Inverted Transformers",
+      "url": "papers/2611.20719/",
+      "arxivUrl": "https://arxiv.org/abs/2611.20719",
+      "date": "2026-11-18",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.18346",
+      "title": "VLAN: Vision-Language Accessible Navigation",
+      "url": "papers/2611.18346/",
+      "arxivUrl": "https://arxiv.org/abs/2611.18346",
+      "date": "2026-11-18",
+      "tags": [
+        "VLN · 视觉语言导航"
+      ]
+    },
+    {
       "id": "2611.17442",
       "title": "Racing the Clock: Teaching VLNs Budget-Conditioned Object Search",
       "url": "papers/2611.17442/",
