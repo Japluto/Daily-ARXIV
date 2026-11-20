@@ -49,6 +49,10 @@
     
       <link rel="stylesheet" href="../../stylesheets/reading-tracker.css">
     
+      <link rel="stylesheet" href="../../assets/vendor/katex/katex.min.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/paper-abstract.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -2783,6 +2787,17 @@
       目录
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#paper-abstract" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abstract · 摘要原文
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
@@ -11220,6 +11235,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#paper-abstract" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abstract · 摘要原文
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11298,6 +11324,16 @@
 
 <p class="paper-classification">核心方法＋系统｜Agent/agentic coding｜技能、规划、验证/恢复｜桌面操作，仿真＋真机。</p>
 
+<section aria-labelledby="paper-abstract" class="paper-abstract" data-paper-abstract="data-paper-abstract">
+<h2 id="paper-abstract">Abstract · 摘要原文<a class="headerlink" href="#paper-abstract" title="Permanent link">&para;</a></h2>
+<div class="abstract-actions"><button type="button" class="abstract-copy" data-abstract-copy hidden aria-label="复制完整摘要原文"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg><span>复制原文</span></button></div>
+<div class="abstract-text" id="abstract-text-2611-10510" lang="en">
+<p>Self-improvement on compositional manipulation tasks requires deciding what to reuse, where to improve, and which changes to retain. We present ReSkill, a selective self-improvement framework that concentrates revision on capability gaps. A coding agent constructs an object-centric task graph from an instruction and a skill library, then uses node-level execution records to locate failures. At the task level, it revises stage organization, hand-off conditions, and recovery routes; at the skill level, it strengthens perception, motion, manipulation, and verification capabilities that repeatedly fail. Candidate revisions undergo full-task evaluation and paired comparisons before adoption, allowing local changes to accumulate into validated skills and an independently executable policy. The agent participates only during development; the deployed policy calls the retained skills without invoking the agent at run time. On the same development set, average success across ten RoboDojo tasks rises from 30.0% for the initial versions to 86.2% for the final adopted programs; retained programs achieve 83.6% in recorded robustness and model-selection evaluations. Across eight real-world tasks, ReSkill succeeds in 72 of 80 rebuilt-simulation trials and 62 of 80 real-robot trials (77.5%). The median revision changes only three functions, approximately 0.5% of a program, while 39% of task-specific functions in later-added tasks directly reuse existing implementations. These results show how locating local deficiencies, validating candidate changes, and accumulating reusable skills can improve execution of compositional manipulation tasks.</p>
+</div>
+<div class="abstract-footer"><a href="https://arxiv.org/abs/2611.10510v1" target="_blank" rel="noopener noreferrer">来源：arXiv · v1 ↗</a><button type="button" class="abstract-expand" data-abstract-toggle aria-expanded="false" aria-controls="abstract-text-2611-10510" hidden>展开全文 ↓</button></div>
+<p><span class="abstract-version-note">原归档未标版本，摘要采用 v1。</span></p>
+<p aria-live="polite" class="abstract-status" data-abstract-status="data-abstract-status" role="status"></p>
+</section>
 <h2 id="_1">方法框架<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <figure class="paper-figure">
 <a class="figure-image-link" href="../../assets/papers/2611.10510/framework.png" target="_blank" rel="noopener" aria-label="查看原尺寸图：从指令和技能库构建任务图，通过节点执行证据定位缺口，分别修订任务图与技能实现。候选版本经过整任务评估和配对比较后保留，形成可独立执行的策略及更新后的技能库。"><img src="../../assets/papers/2611.10510/framework.png" alt="从指令和技能库构建任务图，通过节点执行证据定位缺口，分别修订任务图与技能实现。候选版本经过整任务评估和配对比较后保留，形成可独立执行的策略及更新后的技能库。" loading="lazy" decoding="async"></a>
@@ -11416,6 +11452,12 @@
         <script src="../../assets/javascripts/reading-state.js"></script>
       
         <script src="../../assets/javascripts/reading-tracker.js"></script>
+      
+        <script src="../../assets/vendor/katex/katex.min.js"></script>
+      
+        <script src="../../assets/vendor/katex/contrib/auto-render.min.js"></script>
+      
+        <script src="../../assets/javascripts/paper-abstract.js"></script>
       
     
   </body>

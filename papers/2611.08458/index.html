@@ -49,6 +49,10 @@
     
       <link rel="stylesheet" href="../../stylesheets/reading-tracker.css">
     
+      <link rel="stylesheet" href="../../assets/vendor/katex/katex.min.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/paper-abstract.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3265,6 +3269,17 @@
       目录
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#paper-abstract" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abstract · 摘要原文
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
@@ -11231,6 +11246,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#paper-abstract" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abstract · 摘要原文
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11318,6 +11344,15 @@
 
 <p class="paper-classification">核心方法｜VLA/RL prior｜低层策略学习｜仿真桌面灵巧操作</p>
 
+<section aria-labelledby="paper-abstract" class="paper-abstract" data-paper-abstract="data-paper-abstract">
+<h2 id="paper-abstract">Abstract · 摘要原文<a class="headerlink" href="#paper-abstract" title="Permanent link">&para;</a></h2>
+<div class="abstract-actions"><button type="button" class="abstract-copy" data-abstract-copy hidden aria-label="复制完整摘要原文"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg><span>复制原文</span></button></div>
+<div class="abstract-text" id="abstract-text-2611-08458" lang="en">
+<p>Learning dexterous manipulation from limited visual demonstrations is challenging because policies must acquire both perceptual grounding and precise control, while reinforcement learning (RL) in simulation can acquire rich control behaviors from large-scale interaction with privileged information. We introduce \textbf{Latent RL Prior}, a two-stage framework that reuses this control knowledge for data-efficient visual policy learning. During privileged pretraining, we distill large-scale RL rollouts into a flow-matching action decoder conditioned on proprioception and latent task context. During visual adaptation, we freeze the decoder and learn a visual interface that maps images to its latent context using action supervision alone, without privileged labels or latent targets. The same decoder can further be shared across arms by learning coordinated visual contexts for bimanual manipulation. Across three simulated tasks, our method outperforms full-parameter fine-tuning of $π_{0.5}$ and GR00T N1.7 in the low-data regime; on door lifting and bimanual assembly, it surpasses full-data baselines using $10\times$ and $5\times$ fewer demonstrations, respectively. Further analysis shows that direct visual-to-latent conditioning improves adaptation performance and training stability over routing visual predictions through the pretrained state encoder. Robustness to unseen mass variation and greater linear accessibility of contact-force information in decoder representations further provide evidence of retained RL-acquired control knowledge. Project website: https://yixiaowang7.github.io/latent-rl-prior-page/.</p>
+</div>
+<div class="abstract-footer"><a href="https://arxiv.org/abs/2611.08458v1" target="_blank" rel="noopener noreferrer">来源：arXiv · v1 ↗</a><button type="button" class="abstract-expand" data-abstract-toggle aria-expanded="false" aria-controls="abstract-text-2611-08458" hidden>展开全文 ↓</button></div>
+<p aria-live="polite" class="abstract-status" data-abstract-status="data-abstract-status" role="status"></p>
+</section>
 <h2 id="_1">方法框架<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <figure class="paper-figure">
 <a class="figure-image-link" href="../../assets/papers/2611.08458/framework.png" target="_blank" rel="noopener" aria-label="查看原尺寸图：预训练用特权状态和 Q-Former 为动作解码器生成条件。视觉适配阶段冻结动作解码器，从图像学习条件，双臂分别用自身本体状态调用同一解码器。"><img src="../../assets/papers/2611.08458/framework.png" alt="预训练用特权状态和 Q-Former 为动作解码器生成条件。视觉适配阶段冻结动作解码器，从图像学习条件，双臂分别用自身本体状态调用同一解码器。" loading="lazy" decoding="async"></a>
@@ -11438,6 +11473,12 @@
         <script src="../../assets/javascripts/reading-state.js"></script>
       
         <script src="../../assets/javascripts/reading-tracker.js"></script>
+      
+        <script src="../../assets/vendor/katex/katex.min.js"></script>
+      
+        <script src="../../assets/vendor/katex/contrib/auto-render.min.js"></script>
+      
+        <script src="../../assets/javascripts/paper-abstract.js"></script>
       
     
   </body>

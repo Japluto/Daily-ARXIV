@@ -49,6 +49,10 @@
     
       <link rel="stylesheet" href="../../stylesheets/reading-tracker.css">
     
+      <link rel="stylesheet" href="../../assets/vendor/katex/katex.min.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/paper-abstract.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -7047,6 +7051,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#paper-abstract" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abstract · 摘要原文
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11242,6 +11257,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#paper-abstract" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abstract · 摘要原文
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11340,6 +11366,15 @@
 
 <p class="paper-classification">基准/诊断 + 核心方法｜WM/WAM + VLA｜低层策略学习｜桌面操作（仿真）</p>
 
+<section aria-labelledby="paper-abstract" class="paper-abstract" data-paper-abstract="data-paper-abstract">
+<h2 id="paper-abstract">Abstract · 摘要原文<a class="headerlink" href="#paper-abstract" title="Permanent link">&para;</a></h2>
+<div class="abstract-actions"><button type="button" class="abstract-copy" data-abstract-copy hidden aria-label="复制完整摘要原文"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg><span>复制原文</span></button></div>
+<div class="abstract-text" id="abstract-text-2610-34593" lang="en">
+<p>World Action Models (WAMs) combine future-video prediction with robot action learning, yet improvements in task success alone do not reveal how predictive supervision manifests in execution behavior or whether its benefits persist under task and environmental shifts. We conduct controlled future-video prediction loss ablations within FastWAM and OpenWAM, keeping model architecture, initialization, robot training data, and training steps fixed within each model family. Under clean conditions on seen tasks, predictive supervision increases success rates by 24.38 and 72.91 percentage points, respectively. Trajectory clustering further reveals higher success rates within several coarse trajectory clusters, including cases where cluster frequencies change little, indicating that the gains are not solely reflected in changes in the prevalence of trajectory patterns. However, these benefits do not consistently persist under distribution shifts: improvements on unseen tasks vary across models and tasks, while both models exhibit low success rates under the evaluated environmental randomizations, without a consistent advantage from predictive supervision. We further introduce future-video prediction as an auxiliary training objective for $π_{0.5}$, where a lightweight Transformer predictor used only during training increases success from 82.94% to 89.19%. These findings support future-video prediction as effective auxiliary supervision for action learning, while distinguishing improved execution on familiar tasks from reliable transfer and showing that such gains need not rely on a large pretrained video diffusion transformer (DiT) in the evaluated setting.</p>
+</div>
+<div class="abstract-footer"><a href="https://arxiv.org/abs/2610.34593v1" target="_blank" rel="noopener noreferrer">来源：arXiv · v1 ↗</a><button type="button" class="abstract-expand" data-abstract-toggle aria-expanded="false" aria-controls="abstract-text-2610-34593" hidden>展开全文 ↓</button></div>
+<p aria-live="polite" class="abstract-status" data-abstract-status="data-abstract-status" role="status"></p>
+</section>
 <h2 id="_1">训练配置对比<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <figure class="paper-figure">
 <a class="figure-image-link" href="../../assets/papers/2610.34593/framework.png" target="_blank" rel="noopener" aria-label="查看原尺寸图：两种辅助视频预测分支在训练中更新共享视觉语言通路，推理时移除视频分支并保留原动作路径。"><img src="../../assets/papers/2610.34593/framework.png" alt="两种辅助视频预测分支在训练中更新共享视觉语言通路，推理时移除视频分支并保留原动作路径。" loading="lazy" decoding="async"></a>
@@ -11462,6 +11497,12 @@
         <script src="../../assets/javascripts/reading-state.js"></script>
       
         <script src="../../assets/javascripts/reading-tracker.js"></script>
+      
+        <script src="../../assets/vendor/katex/katex.min.js"></script>
+      
+        <script src="../../assets/vendor/katex/contrib/auto-render.min.js"></script>
+      
+        <script src="../../assets/javascripts/paper-abstract.js"></script>
       
     
   </body>

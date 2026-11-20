@@ -49,6 +49,10 @@
     
       <link rel="stylesheet" href="../../stylesheets/reading-tracker.css">
     
+      <link rel="stylesheet" href="../../assets/vendor/katex/katex.min.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/paper-abstract.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -5015,6 +5019,17 @@
       目录
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#paper-abstract" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abstract · 摘要原文
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
@@ -11231,6 +11246,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#paper-abstract" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abstract · 摘要原文
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11318,6 +11344,15 @@
 
 <p class="paper-classification">大系统｜Agent + VLA + 代码技能｜技能/阶段 + 规划/观测/验证｜桌面操作 + 有限全身移动操作</p>
 
+<section aria-labelledby="paper-abstract" class="paper-abstract" data-paper-abstract="data-paper-abstract">
+<h2 id="paper-abstract">Abstract · 摘要原文<a class="headerlink" href="#paper-abstract" title="Permanent link">&para;</a></h2>
+<div class="abstract-actions"><button type="button" class="abstract-copy" data-abstract-copy hidden aria-label="复制完整摘要原文"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg><span>复制原文</span></button></div>
+<div class="abstract-text" id="abstract-text-2610-42053" lang="en">
+<p>Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied systems, two obstacles remain: methods are built and scored on incompatible stacks, and their asynchronous coordination is difficult. For example, an agent that calls the VLA in the agentic loop can stall the fast execution, while a VLA that calls the agent on errors tends to re-trigger fallbacks repeatedly or completely miss silent failures. To address this, we propose REA (Routed Embodied Agent), a unified runtime where a deliberative System 2, an embodied router System 1 and reactive System 0 policies cooperate under a single golden rule - no running policy waits on the brain. Instead of querying the brain at each failure, REA employs a route memory that stores each policy&#x27;s measured success ahead of time, a boundary-triggered judge gate that consults the brain on policy execution, and a shared-budget escalation ladder for bounded recovery. Evaluated on 3,000 test episodes across 60 LIBERO-Pro tasks, REA reaches 95.9% success and beats the best single-agent baseline in its own policy pool (94.7%) while reducing control steps by 25% and control time by 17%. In a separate 100-episode RoboTwin 2.0 study, REA achieves 84% success with VLA policies and 86% with VLA+code, compared with 80% for the strongest single VLA baseline MEDex. These results demonstrate learned and programmatic policies operating within the same runtime. REA also transfers to BEHAVIOR-1K and a real Unitree G1 humanoid, achieving the highest observed success among the compared methods.</p>
+</div>
+<div class="abstract-footer"><a href="https://arxiv.org/abs/2610.42053v1" target="_blank" rel="noopener noreferrer">来源：arXiv · v1 ↗</a><button type="button" class="abstract-expand" data-abstract-toggle aria-expanded="false" aria-controls="abstract-text-2610-42053" hidden>展开全文 ↓</button></div>
+<p aria-live="polite" class="abstract-status" data-abstract-status="data-abstract-status" role="status"></p>
+</section>
 <h2 id="_1">运行时框架<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <figure class="paper-figure">
 <a class="figure-image-link" href="../../assets/papers/2610.42053/framework.png" target="_blank" rel="noopener" aria-label="查看原尺寸图：冻结代码策略由 route memory 路由，并在边界交由视觉 judge 判断完成或升级恢复，配合共享预算继续执行。"><img src="../../assets/papers/2610.42053/framework.png" alt="冻结代码策略由 route memory 路由，并在边界交由视觉 judge 判断完成或升级恢复，配合共享预算继续执行。" loading="lazy" decoding="async"></a>
@@ -11438,6 +11473,12 @@
         <script src="../../assets/javascripts/reading-state.js"></script>
       
         <script src="../../assets/javascripts/reading-tracker.js"></script>
+      
+        <script src="../../assets/vendor/katex/katex.min.js"></script>
+      
+        <script src="../../assets/vendor/katex/contrib/auto-render.min.js"></script>
+      
+        <script src="../../assets/javascripts/paper-abstract.js"></script>
       
     
   </body>

@@ -49,6 +49,10 @@
     
       <link rel="stylesheet" href="../../stylesheets/reading-tracker.css">
     
+      <link rel="stylesheet" href="../../assets/vendor/katex/katex.min.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/paper-abstract.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3853,6 +3857,17 @@
       目录
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#paper-abstract" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abstract · 摘要原文
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
@@ -11231,6 +11246,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#paper-abstract" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abstract · 摘要原文
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11318,6 +11344,17 @@
 
 <p class="paper-classification">贡献=大系统＋核心方法；路线=VLA＋Agent；层级=策略学习＋阶段诊断＋验证/恢复；任务=桌面操作（仿真）</p>
 
+<section aria-labelledby="paper-abstract" class="paper-abstract" data-paper-abstract="data-paper-abstract">
+<h2 id="paper-abstract">Abstract · 摘要原文<a class="headerlink" href="#paper-abstract" title="Permanent link">&para;</a></h2>
+<div class="abstract-actions"><button type="button" class="abstract-copy" data-abstract-copy hidden aria-label="复制完整摘要原文"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg><span>复制原文</span></button></div>
+<div class="abstract-text" id="abstract-text-2611-06654" lang="en">
+<p>Generalist robot policies are trained on static offline datasets, yet physical manipulation unfolds sequentially across stages. Because a weakness in a downstream stage remains unobservable until the policy passes earlier ones, each resolved bottleneck exposes the next hidden failure mode. This staged structure calls for Recursive Self-Improvement (RSI), in which a policy iteratively executes, diagnoses failures, and updates itself. Moreover, because task completion behaves like a product of stage-level pass rates, recursive gains can multiply across generations. In physical environments, three bottlenecks obstruct compounding: terminal execution feedback rarely localizes the stage that caused a failure, failed trajectories do not supply the corrective action, and updating shared parameters can degrade previously mastered skills.
+  We propose Compounding Physical RSI, a self-evolving policy framework that turns execution failures into heritable capability. First, automated capability-gap assessment traces failed rollouts to the task stage where progression breaks down and formulates a structured improvement objective. Second, conditioned on this objective, our remedy stage curates validated, stage-relevant experience and refines the policy via behavior-regularized offline reinforcement learning, without requiring costly online rollouts at each optimization step. Third, to safeguard existing skills, our retention stage constructs weight-space candidates between the inherited reference policy and the refined policy, evaluates them across the task suite, and promotes the best candidate as the reference state for the next generation.
+  Evaluated across all 42 tasks of the RoboDojo-Sim benchmark, CSU-AI-07 ranks first on the leaderboard with a three-seed mean Overall Score of 26.15 and Success Rate of 20.70%, outperforming the next-best entry by 5.92 points and 5.82 percentage points.</p>
+</div>
+<div class="abstract-footer"><a href="https://arxiv.org/abs/2611.06654v1" target="_blank" rel="noopener noreferrer">来源：arXiv · v1 ↗</a><button type="button" class="abstract-expand" data-abstract-toggle aria-expanded="false" aria-controls="abstract-text-2611-06654" hidden>展开全文 ↓</button></div>
+<p aria-live="polite" class="abstract-status" data-abstract-status="data-abstract-status" role="status"></p>
+</section>
 <h2 id="_1">方法框架<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <figure class="paper-figure">
 <a class="figure-image-link" href="../../assets/papers/2611.06654/framework.png" target="_blank" rel="noopener" aria-label="查看原尺寸图：RoboDojo-Sim 执行轨迹用于诊断阶段能力缺口。结构化目标指导经验整理和离线强化学习，之后评估候选权重并保留通过验证的策略。"><img src="../../assets/papers/2611.06654/framework.png" alt="RoboDojo-Sim 执行轨迹用于诊断阶段能力缺口。结构化目标指导经验整理和离线强化学习，之后评估候选权重并保留通过验证的策略。" loading="lazy" decoding="async"></a>
@@ -11438,6 +11475,12 @@
         <script src="../../assets/javascripts/reading-state.js"></script>
       
         <script src="../../assets/javascripts/reading-tracker.js"></script>
+      
+        <script src="../../assets/vendor/katex/katex.min.js"></script>
+      
+        <script src="../../assets/vendor/katex/contrib/auto-render.min.js"></script>
+      
+        <script src="../../assets/javascripts/paper-abstract.js"></script>
       
     
   </body>

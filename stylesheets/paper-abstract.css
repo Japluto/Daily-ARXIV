@@ -1,0 +1,52 @@
+.md-typeset .paper-abstract {
+  position: relative;
+  margin: 2.1rem 0 1.2rem;
+}
+.md-typeset .paper-abstract h2 {
+  margin-top: 0;
+  padding-right: 5.3rem;
+  font-size: 1.02rem;
+}
+.abstract-actions { position: absolute; right: 0; top: -.13rem; }
+.abstract-copy, .abstract-expand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .3rem;
+  min-height: 2.05rem;
+  padding: .25rem .5rem;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--md-typeset-a-color);
+  font: inherit;
+  font-size: .65rem;
+  cursor: pointer;
+}
+.paper-abstract [hidden] { display: none !important; }
+.abstract-copy { color: var(--paper-muted); }
+.abstract-copy svg { width: .8rem; height: .8rem; fill: none; stroke: currentColor; stroke-width: 1.6; }
+.abstract-copy:hover, .abstract-expand:hover { background: var(--paper-tag); }
+.abstract-copy:focus-visible, .abstract-expand:focus-visible { outline: 2px solid var(--md-accent-fg-color); outline-offset: 2px; }
+.md-typeset .abstract-text { font-size: .77rem; line-height: 1.85; text-align: left; overflow-wrap: anywhere; }
+.md-typeset .abstract-text p { margin: 0; }
+.abstract-text.is-collapsed {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+  mask-image: linear-gradient(#000 78%, transparent 100%);
+}
+.abstract-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .3rem .8rem; margin-top: .45rem; }
+.md-typeset .abstract-footer a { color: var(--paper-muted); font-size: .61rem; }
+.md-typeset .abstract-footer a:hover { color: var(--md-typeset-a-color); }
+.abstract-version-note { display: block; margin-top: .3rem; font-size: .6rem; color: var(--paper-muted); }
+.abstract-text .katex { font-size: 1.05em; }
+.abstract-text .katex-display { overflow-x: auto; overflow-y: hidden; padding: .3rem 0; }
+.md-typeset .abstract-status { min-height: 1.2em; margin: .1rem 0 0; color: var(--md-typeset-a-color); font-size: .61rem; }
+@media (max-width: 600px) {
+  .md-typeset .paper-abstract h2 { font-size: .91rem; padding-right: 4.8rem; }
+  .abstract-copy { font-size: .59rem; padding-right: 0; }
+  .abstract-copy svg { width: .73rem; height: .73rem; }
+  .md-typeset .abstract-text { font-size: .75rem; }
+}
