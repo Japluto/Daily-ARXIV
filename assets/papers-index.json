@@ -101,6 +101,19 @@
       ]
     },
     {
+      "id": "2611.26444",
+      "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+      "url": "papers/2611.26444/",
+      "arxivUrl": "https://arxiv.org/abs/2611.26444",
+      "date": "2026-11-20",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
       "id": "2611.22584",
       "title": "InteractVLA: Turning VLAs into Interactive Tools for Agentic Robotic Manipulation",
       "url": "papers/2611.22584/",
