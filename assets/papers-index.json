@@ -81,6 +81,26 @@
       ]
     },
     {
+      "id": "2611.21115",
+      "title": "ReuseMem：动作价值监督的多目标记忆检索",
+      "url": "papers/2611.21115/",
+      "arxivUrl": "https://arxiv.org/abs/2611.21115",
+      "date": "2026-11-20",
+      "tags": [
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.20465",
+      "title": "ReRead：阶段歧义下复用策略历史缓存",
+      "url": "papers/2611.20465/",
+      "arxivUrl": "https://arxiv.org/abs/2611.20465",
+      "date": "2026-11-20",
+      "tags": [
+        "记忆与技能"
+      ]
+    },
+    {
       "id": "2611.22584",
       "title": "InteractVLA: Turning VLAs into Interactive Tools for Agentic Robotic Manipulation",
       "url": "papers/2611.22584/",
