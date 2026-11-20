@@ -2,6 +2,85 @@
   "schemaVersion": 1,
   "papers": [
     {
+      "id": "2611.24940",
+      "title": "Z-sight: Unifying Vision-Language-Action and Latent World Modeling",
+      "url": "papers/2611.24940/",
+      "arxivUrl": "https://arxiv.org/abs/2611.24940",
+      "date": "2026-11-20",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.23499",
+      "title": "BiCAT: Bimanual Coordination Action Tokenization",
+      "url": "papers/2611.23499/",
+      "arxivUrl": "https://arxiv.org/abs/2611.23499",
+      "date": "2026-11-20",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.23803",
+      "title": "CoT-WAM: Collaborative Training of Vision-Language Models and World-Action Models via Plan Latents",
+      "url": "papers/2611.23803/",
+      "arxivUrl": "https://arxiv.org/abs/2611.23803",
+      "date": "2026-11-20",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.23843",
+      "title": "RePlan-VLA: Progress-Aware Replanning for Long-Horizon Vision-Language-Action Models",
+      "url": "papers/2611.23843/",
+      "arxivUrl": "https://arxiv.org/abs/2611.23843",
+      "date": "2026-11-20",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.24360",
+      "title": "Towards Pose-Robust Few-Shot Vision-Language-Action Models（WACO）",
+      "url": "papers/2611.24360/",
+      "arxivUrl": "https://arxiv.org/abs/2611.24360",
+      "date": "2026-11-20",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.23774",
+      "title": "Improve How You Improve: Recursive Policy Self-Improvement for Zero-Shot Open-Vocabulary Multi-Object Navigation（RPSI-Nav）",
+      "url": "papers/2611.23774/",
+      "arxivUrl": "https://arxiv.org/abs/2611.23774",
+      "date": "2026-11-20",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能",
+        "VLN · 视觉语言导航"
+      ]
+    },
+    {
+      "id": "2611.23517",
+      "title": "RageVLA: Augmentation-Trained Perception and Action for State-of-the-Art Robustness on LIBERO",
+      "url": "papers/2611.23517/",
+      "arxivUrl": "https://arxiv.org/abs/2611.23517",
+      "date": "2026-11-20",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
       "id": "2611.22584",
       "title": "InteractVLA: Turning VLAs into Interactive Tools for Agentic Robotic Manipulation",
       "url": "papers/2611.22584/",
