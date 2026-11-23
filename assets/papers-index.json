@@ -2,6 +2,52 @@
   "schemaVersion": 1,
   "papers": [
     {
+      "id": "2611.26414",
+      "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
+      "url": "papers/2611.26414/",
+      "arxivUrl": "https://arxiv.org/abs/2611.26414",
+      "date": "2026-11-23",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能",
+        "VLN · 视觉语言导航"
+      ]
+    },
+    {
+      "id": "2611.25683",
+      "title": "TipDex-VTLA: Learning When to Refine Actions with Touch for Dexterous Manipulation",
+      "url": "papers/2611.25683/",
+      "arxivUrl": "https://arxiv.org/abs/2611.25683",
+      "date": "2026-11-23",
+      "tags": [
+        "VLA 与策略学习"
+      ]
+    },
+    {
+      "id": "2611.25529",
+      "title": "CoachSI: Self-Improvement of Robot Policies with a Language Coach",
+      "url": "papers/2611.25529/",
+      "arxivUrl": "https://arxiv.org/abs/2611.25529",
+      "date": "2026-11-23",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "智能体与程序学习",
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.25614",
+      "title": "Don't Lose the Future: Latent-Aware 4-Bit Quantization of World Action Models",
+      "url": "papers/2611.25614/",
+      "arxivUrl": "https://arxiv.org/abs/2611.25614",
+      "date": "2026-11-23",
+      "tags": [
+        "世界模型与 WAM"
+      ]
+    },
+    {
       "id": "2611.26596",
       "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
       "url": "papers/2611.26596/",
