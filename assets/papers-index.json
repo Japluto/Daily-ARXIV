@@ -2,6 +2,153 @@
   "schemaVersion": 1,
   "papers": [
     {
+      "id": "2611.31205",
+      "title": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
+      "url": "papers/2611.31205/",
+      "arxivUrl": "https://arxiv.org/abs/2611.31205",
+      "date": "2026-11-25",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.30449",
+      "title": "CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors",
+      "url": "papers/2611.30449/",
+      "arxivUrl": "https://arxiv.org/abs/2611.30449",
+      "date": "2026-11-25",
+      "tags": [
+        "VLA 与策略学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.30900",
+      "title": "GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind",
+      "url": "papers/2611.30900/",
+      "arxivUrl": "https://arxiv.org/abs/2611.30900",
+      "date": "2026-11-25",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能",
+        "VLN · 视觉语言导航"
+      ]
+    },
+    {
+      "id": "2611.31740",
+      "title": "LeanWAM: Learning Latent World Action Models from Frozen Video Models",
+      "url": "papers/2611.31740/",
+      "arxivUrl": "https://arxiv.org/abs/2611.31740",
+      "date": "2026-11-25",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.30024",
+      "title": "FlexWAM: Learning Flexible Visual Routing for World Action Models",
+      "url": "papers/2611.30024/",
+      "arxivUrl": "https://arxiv.org/abs/2611.30024",
+      "date": "2026-11-25",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.31201",
+      "title": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
+      "url": "papers/2611.31201/",
+      "arxivUrl": "https://arxiv.org/abs/2611.31201",
+      "date": "2026-11-25",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习"
+      ]
+    },
+    {
+      "id": "2611.30209",
+      "title": "RoboAda: Adapting Frozen Robot Policies at Test Time to Physics They Cannot See",
+      "url": "papers/2611.30209/",
+      "arxivUrl": "https://arxiv.org/abs/2611.30209",
+      "date": "2026-11-25",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.27182",
+      "title": "Tripwire: Robot Agents that Program Their Own Interrupts under Human Disturbance",
+      "url": "papers/2611.27182/",
+      "arxivUrl": "https://arxiv.org/abs/2611.27182",
+      "date": "2026-11-24",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM",
+        "智能体与程序学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.27219",
+      "title": "NavTTT: Adaptive Parametric Memory via Hierarchical Test-Time Training for Vision-and-Language Navigation",
+      "url": "papers/2611.27219/",
+      "arxivUrl": "https://arxiv.org/abs/2611.27219",
+      "date": "2026-11-24",
+      "tags": [
+        "记忆与技能",
+        "VLN · 视觉语言导航"
+      ]
+    },
+    {
+      "id": "2611.27166",
+      "title": "Mem-X: A Memory-Dependent Cross-Episode Benchmark for Vision-and-Language Navigation",
+      "url": "papers/2611.27166/",
+      "arxivUrl": "https://arxiv.org/abs/2611.27166",
+      "date": "2026-11-24",
+      "tags": [
+        "记忆与技能",
+        "VLN · 视觉语言导航"
+      ]
+    },
+    {
+      "id": "2611.26853",
+      "title": "LoCo-WAM: Test-Time Training as Long Context for World-Action Models",
+      "url": "papers/2611.26853/",
+      "arxivUrl": "https://arxiv.org/abs/2611.26853",
+      "date": "2026-11-24",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.27047",
+      "title": "BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight",
+      "url": "papers/2611.27047/",
+      "arxivUrl": "https://arxiv.org/abs/2611.27047",
+      "date": "2026-11-24",
+      "tags": [
+        "VLA 与策略学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.27689",
+      "title": "Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation",
+      "url": "papers/2611.27689/",
+      "arxivUrl": "https://arxiv.org/abs/2611.27689",
+      "date": "2026-11-24",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
       "id": "2611.26414",
       "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
       "url": "papers/2611.26414/",
