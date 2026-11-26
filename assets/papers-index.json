@@ -2,6 +2,74 @@
   "schemaVersion": 1,
   "papers": [
     {
+      "id": "2611.32238",
+      "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+      "url": "papers/2611.32238/",
+      "arxivUrl": "https://arxiv.org/abs/2611.32238",
+      "date": "2026-11-26",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.32245",
+      "title": "VLAs Execute, Code Recovers: 3D Skill Envelopes Bridge the Compositional Gap in Agentic Manipulation",
+      "url": "papers/2611.32245/",
+      "arxivUrl": "https://arxiv.org/abs/2611.32245",
+      "date": "2026-11-26",
+      "tags": [
+        "VLA 与策略学习",
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
+      "id": "2611.32400",
+      "title": "Verify then Steer: Progress Hallucination-Aware Recovery for Continuous Vision-and-Language Navigation",
+      "url": "papers/2611.32400/",
+      "arxivUrl": "https://arxiv.org/abs/2611.32400",
+      "date": "2026-11-26",
+      "tags": [
+        "智能体与程序学习",
+        "VLN · 视觉语言导航"
+      ]
+    },
+    {
+      "id": "2611.32654",
+      "title": "DexWAC: A Unified World-Actor-Critic Model for Dexterous Robot Manipulation",
+      "url": "papers/2611.32654/",
+      "arxivUrl": "https://arxiv.org/abs/2611.32654",
+      "date": "2026-11-26",
+      "tags": [
+        "VLA 与策略学习",
+        "世界模型与 WAM"
+      ]
+    },
+    {
+      "id": "2611.32683",
+      "title": "DeCoNav-Act: Benchmarking Collective Physical Capability in Multi-Robot Mobile Manipulation",
+      "url": "papers/2611.32683/",
+      "arxivUrl": "https://arxiv.org/abs/2611.32683",
+      "date": "2026-11-26",
+      "tags": [
+        "智能体与程序学习",
+        "移动操作"
+      ]
+    },
+    {
+      "id": "2611.32016",
+      "title": "RoboHarness-RL: Agentic Reinforcement Learning for VLM-Based Robot Manipulation",
+      "url": "papers/2611.32016/",
+      "arxivUrl": "https://arxiv.org/abs/2611.32016",
+      "date": "2026-11-26",
+      "tags": [
+        "智能体与程序学习",
+        "记忆与技能"
+      ]
+    },
+    {
       "id": "2611.31205",
       "title": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
       "url": "papers/2611.31205/",
